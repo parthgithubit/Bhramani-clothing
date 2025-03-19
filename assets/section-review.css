@@ -5,6 +5,7 @@
     background-size: cover;
     border-radius: 10px;
     padding: 100px 0;
+    margin: 50px 0;
 }
 
 .section-review .review-slider .main-title,
@@ -32,7 +33,7 @@
 }
 
 .section-review .review-slider .slider-text .text-block{
-    padding: 2rem 13%;
+    padding: 2rem 180px;
 }
 
 .section-review .review-slider .slider-text .text-block p{
@@ -71,4 +72,21 @@
     left: 0;
     right: 0;
     top: -15px;
+}
+
+.section-review .slider-text .slick-dots li,
+.section-review .slider-text .slick-dots li button,
+.section-review .slider-text .slick-dots li button::before{
+    height: 12px;
+    width: 12px;
+}
+
+.section-review .slider-text .slick-dots li button::before{
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    color: transparent;
+}
+
+.section-review .slider-text .slick-dots .slick-active button::before{
+    background-color: #000000;
 }
