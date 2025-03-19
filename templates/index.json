@@ -508,6 +508,30 @@
         "services_LRJPPG"
       ],
       "settings": {}
+    },
+    "section_banner_nFU4P8": {
+      "type": "section-banner",
+      "blocks": {
+        "banner_KUwriB": {
+          "type": "banner",
+          "settings": {
+            "media_selection": "image",
+            "custom_image": "shopify://shop_images/instagram-6.png"
+          }
+        },
+        "banner_LX7QCe": {
+          "type": "banner",
+          "settings": {
+            "media_selection": "video",
+            "custom_video": "shopify://files/videos/banner-video.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "banner_KUwriB",
+        "banner_LX7QCe"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -522,6 +546,7 @@
     "section_review_cK3MW4",
     "collapsible_content_raAp3t",
     "section_instagram_post_8WrXhL",
-    "section_services_LKfU7d"
+    "section_services_LKfU7d",
+    "section_banner_nFU4P8"
   ]
 }
