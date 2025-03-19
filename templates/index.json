@@ -304,6 +304,24 @@
         "padding_bottom": 36
       }
     },
+    "featured_blog_CBazJp": {
+      "type": "featured-blog",
+      "settings": {
+        "blog": "nullam-ultricies-ligula-velit-quis-vehicula",
+        "post_limit": 3,
+        "heading": "OUR LATEST BLOG",
+        "subtitle": "The freshest and most exciting news",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "section_review_cK3MW4": {
       "type": "section-review",
       "blocks": {
@@ -385,24 +403,6 @@
         "section_title": "@PANDORA",
         "section_subtitle": "#follow on social media"
       }
-    },
-    "featured_blog_CBazJp": {
-      "type": "featured-blog",
-      "settings": {
-        "blog": "nullam-ultricies-ligula-velit-quis-vehicula",
-        "post_limit": 3,
-        "heading": "OUR LATEST BLOG",
-        "subtitle": "The freshest and most exciting news",
-        "heading_size": "h1",
-        "columns_desktop": 3,
-        "show_view_all": true,
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -413,8 +413,8 @@
     "image_banner_JKkK9z",
     "section_offer_xqyLBT",
     "video_6YWRAF",
+    "featured_blog_CBazJp",
     "section_review_cK3MW4",
-    "section_instagram_post_8WrXhL",
-    "featured_blog_CBazJp"
+    "section_instagram_post_8WrXhL"
   ]
 }
