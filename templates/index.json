@@ -289,6 +289,21 @@
         "subtitle": "UNBOX YOUR HAPPINESS WITH PANDORa"
       }
     },
+    "video_6YWRAF": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=4iVYTQe88b8",
+        "cover_image": "shopify://shop_images/video-image.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "section_review_cK3MW4": {
       "type": "section-review",
       "blocks": {
@@ -371,16 +386,19 @@
         "section_subtitle": "#follow on social media"
       }
     },
-    "video_6YWRAF": {
-      "type": "video",
+    "featured_blog_CBazJp": {
+      "type": "featured-blog",
       "settings": {
-        "heading": "",
+        "blog": "nullam-ultricies-ligula-velit-quis-vehicula",
+        "post_limit": 3,
+        "heading": "OUR LATEST BLOG",
+        "subtitle": "The freshest and most exciting news",
         "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=4iVYTQe88b8",
-        "cover_image": "shopify://shop_images/video-image.jpg",
-        "description": "",
-        "full_width": false,
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -394,8 +412,9 @@
     "featured_collection",
     "image_banner_JKkK9z",
     "section_offer_xqyLBT",
+    "video_6YWRAF",
     "section_review_cK3MW4",
     "section_instagram_post_8WrXhL",
-    "video_6YWRAF"
+    "featured_blog_CBazJp"
   ]
 }
