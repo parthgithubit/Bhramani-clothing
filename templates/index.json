@@ -288,6 +288,59 @@
         "section_title": "CUSTOMER REVIEWS",
         "section_subtitle": "what says our customers about us!"
       }
+    },
+    "section_instagram_post_8WrXhL": {
+      "type": "section-instagram-post",
+      "blocks": {
+        "image_picker_9xFYVx": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-1.png"
+          }
+        },
+        "image_picker_9qDDX3": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-2.png"
+          }
+        },
+        "image_picker_Jwij7B": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-3.png"
+          }
+        },
+        "image_picker_B69YJK": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-4.png"
+          }
+        },
+        "image_picker_mXiTbi": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-5.png"
+          }
+        },
+        "image_picker_hwhwCA": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-6.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_picker_9xFYVx",
+        "image_picker_9qDDX3",
+        "image_picker_Jwij7B",
+        "image_picker_B69YJK",
+        "image_picker_mXiTbi",
+        "image_picker_hwhwCA"
+      ],
+      "settings": {
+        "section_title": "@PANDORA",
+        "section_subtitle": "#follow on social media"
+      }
     }
   },
   "order": [
@@ -296,6 +349,7 @@
     "section_categories_VwKVE7",
     "featured_collection",
     "image_banner_JKkK9z",
-    "section_review_cK3MW4"
+    "section_review_cK3MW4",
+    "section_instagram_post_8WrXhL"
   ]
 }
