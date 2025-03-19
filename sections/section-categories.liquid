@@ -1,0 +1,66 @@
+{{ 'section-category.css' | asset_url | stylesheet_tag }}
+
+<div class="section-category">
+  <div class="page-width">
+    <div class="category-main">
+      <div class="title">
+        <h2 class="main-title"> {{ section.settings.section_heading }} </h2>
+      </div>
+
+      <ul>
+        
+        {% for block in section.blocks %}
+        <li>
+          <a href="#">
+            <div class="category-icon">
+              <img src="{{ block.settings.block_img | image_url }}" height="" width="">
+            </div>
+            <div class="category-title">
+              <h3> {{ block.settings.block_title }} </h3>
+            </div>
+          </a>
+        </li>
+        {% endfor %}
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Section Category",
+    "settings": [
+      {
+        "type": "text",
+        "label": "Title",
+        "id": "section_heading"
+      }
+    ],
+    "class": "section",
+    "tag": "section",
+    "blocks": [
+      {
+        "type": "CategoryBlock",
+        "name": "Category Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Block Img",
+            "id": "block_img"
+          },
+          {
+            "type": "text",
+            "label": "Block Title",
+            "id": "block_title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Section Category"
+      }
+    ]
+  }
+{% endschema %}

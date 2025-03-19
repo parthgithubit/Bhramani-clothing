@@ -1,0 +1,25 @@
+.section-faq .collapsible-content__wrapper .grid .grid__item .accordion{
+    border-top: 1px solid #C3C3C3;
+    border-bottom: 1px solid #C3C3C3;
+}
+
+.section-faq .collapsible-content__wrapper .grid .grid__item .accordion + .accordion{
+    border-top: 0;
+}
+
+.section-faq .collapsible-content__wrapper .grid .grid__item .accordion .accordion summary{
+    padding: 1.8rem 0;
+}
+
+.section-faq .collapsible-content__wrapper .grid .grid__item .accordion .accordion__title{
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.section-faq .collapsible-content__wrapper .grid .grid__item .accordion .accordion__content p{
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 25.2px;
+   font-family: 'Open Sans', sans-serif;
+}

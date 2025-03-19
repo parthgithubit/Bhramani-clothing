@@ -1,0 +1,259 @@
+{
+  "sections": {
+    "slideshow_YqRhBM": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_6zggY3": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "TRENDS IN FASHION",
+            "heading_size": "h1",
+            "subheading": "20% DISCOUNT",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_w86e9A": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-1.png",
+            "image_overlay_opacity": 0,
+            "heading": "TRENDS IN FASHION",
+            "heading_size": "h1",
+            "subheading": "20% DISCOUNT IN ALL WOMEN'S FASHION",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_QtFtbX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-2.png",
+            "image_overlay_opacity": 0,
+            "heading": "TRENDS IN FASHION",
+            "heading_size": "h1",
+            "subheading": "50% DISCOUNT ON JACKETS AND HETS.",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-left",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_6zggY3",
+        "slide_w86e9A",
+        "slide_QtFtbX"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collection_list_Q94WQE": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_GPEK49": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "women"
+          }
+        },
+        "featured_collection_PGHKnR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "men"
+          }
+        },
+        "featured_collection_pAHcef": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kids"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_GPEK49",
+        "featured_collection_PGHKnR",
+        "featured_collection_pAHcef"
+      ],
+      "settings": {
+        "title": "SHOP BY CATEGORY",
+        "heading_size": "h1",
+        "sub_title": "You’ll Always Be In Fashion With Our Collection Of Clothing",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "section_categories_VwKVE7": {
+      "type": "section-categories",
+      "blocks": {
+        "category_block_BwCbLe": {
+          "type": "CategoryBlock",
+          "settings": {
+            "block_img": "shopify:\/\/shop_images\/shirt-icon.png",
+            "block_title": "Shirt"
+          }
+        },
+        "category_block_H3z7h7": {
+          "type": "CategoryBlock",
+          "settings": {
+            "block_img": "shopify:\/\/shop_images\/pent-icon.png",
+            "block_title": "Pent"
+          }
+        },
+        "category_block_HLAUQG": {
+          "type": "CategoryBlock",
+          "settings": {
+            "block_img": "shopify:\/\/shop_images\/coat-icon.png",
+            "block_title": "Coat"
+          }
+        },
+        "category_block_VpAAAL": {
+          "type": "CategoryBlock",
+          "settings": {
+            "block_img": "shopify:\/\/shop_images\/shoes-icon.png",
+            "block_title": "Shoes"
+          }
+        },
+        "category_block_Eqeq9J": {
+          "type": "CategoryBlock",
+          "settings": {
+            "block_img": "shopify:\/\/shop_images\/bag-icon.png",
+            "block_title": "Bags"
+          }
+        },
+        "category_block_GCBqVV": {
+          "type": "CategoryBlock",
+          "settings": {
+            "block_img": "shopify:\/\/shop_images\/cap-icon.png",
+            "block_title": "Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "category_block_BwCbLe",
+        "category_block_H3z7h7",
+        "category_block_HLAUQG",
+        "category_block_VpAAAL",
+        "category_block_Eqeq9J",
+        "category_block_GCBqVV"
+      ],
+      "settings": {
+        "section_heading": "I’M LOOKING FOR.."
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 4,
+        "title": "TRENDY COLLECTION",
+        "heading_size": "h1",
+        "description": "<p>Fashion As Unique As You Are.<\/p>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_JKkK9z": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VqAxD6": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BEST ACCESSORIES OF 2022",
+            "heading_size": "h1"
+          }
+        },
+        "text_FfkCgJ": {
+          "type": "text",
+          "settings": {
+            "text": "Now at a special price!",
+            "text_style": "body"
+          }
+        },
+        "buttons_ypQBfM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VqAxD6",
+        "text_FfkCgJ",
+        "buttons_ypQBfM"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/parallax.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-right",
+        "desktop_content_alignment": "left",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_YqRhBM",
+    "collection_list_Q94WQE",
+    "section_categories_VwKVE7",
+    "featured_collection",
+    "image_banner_JKkK9z"
+  ]
+}

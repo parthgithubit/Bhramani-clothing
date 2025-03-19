@@ -1,0 +1,84 @@
+{{ 'section-banner.css' | asset_url | stylesheet_tag }}
+
+<section class="section-banner">
+  <div class="page-width">
+    <div class="main-slider">
+      {% for block in section.blocks %}
+        
+        <div class="banner-slider" >
+          <div class="box">
+            {% if block.settings.media_selection == 'image' %}
+              {% if block.settings.custom_image != blank %}
+                <div class="img-box">
+                 <img src="{{ block.settings.custom_image | image_url }}" height="" width="" alt="">
+                </div>
+              {% endif %}
+            {% elsif block.settings.media_selection == 'video' %}
+              <div class="video-box">
+                {{ block.settings.custom_video | video_tag: autoplay: false, loop: true, muted: true, controls: true }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<script>
+  $('.banner-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  }); 
+</script>
+
+{% schema %}
+{
+  "name": "Section Banner",
+  "settings": [],
+  "tag": "section",
+  "class": "section",
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "banner",
+      "settings": [
+        {
+          "type": "select",
+          "id": "media_selection",
+          "label": "Select Type",
+          "options": [
+            {
+              "value": "image",
+              "label": "Image"
+            },
+            {
+              "value": "video",
+              "label": "Video"
+            }
+          ],
+          "default": "video"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_image",
+          "label": "Select Image"
+        },
+        {
+          "type": "video",
+          "id": "custom_video",
+          "label": "Select Video"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Section Banner"
+    }
+  ]
+}
+{% endschema %}

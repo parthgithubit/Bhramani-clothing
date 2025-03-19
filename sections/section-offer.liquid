@@ -1,0 +1,86 @@
+{{ 'section-offer.css' | asset_url | stylesheet_tag }}
+
+<section class="section-offer">
+  <div class="page-width">
+    <div class="section-title">
+      <h2 class="main-title"> {{ section.settings.section_heading }} </h2>
+      <h6 class="subtitle"> {{ section.settings.subtitle }} </h6>
+    </div>
+
+    <div class="row">
+      {%for block in section.blocks %}
+        <div class="col-6">
+          <div class="sub-banner">
+            <a href="#">
+              {%if block.settings.card_img != blank %}
+                <div class="sub-banner-img">
+                  <img src="{{ block.settings.card_img | image_url }}" alt=""
+                    loading="lazy"
+                    width=""
+                    height="">
+                </div>
+              
+
+                <div class="sub-banner-text">
+                  <h3> {{ block.settings.cardtitle }} </h3>
+                  <p> {{ block.settings.cardsubtitle }} </p>
+                  <a href="#" class="btnshopnow">Shop Now</a>
+                </div>
+              {%endif %}
+              
+            </a>
+          </div>
+        </div>
+        {%endfor %}
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Section Offer",
+    "settings": [
+      {
+        "type": "text",
+        "label": "Section Heading",
+        "id": "section_heading"
+      },
+      {
+        "type": "text",
+        "label": "Subtitle",
+        "id": "subtitle"
+      }
+    ],
+    "tag": "section",
+    "class": "section",
+    "blocks": [
+      {
+        "type": "offercard",
+        "name": "OfferCard",
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Card Image",
+            "id": "card_img"
+          },
+          {
+            "type": "text",
+            "label": "Card Title",
+            "id": "cardtitle",
+          },
+          {
+            "type": "text",
+            "label": "Card Subtitle",
+            "id": "cardsubtitle",
+          },
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Section Offer"
+      }
+    ],
+  }
+{% endschema %}

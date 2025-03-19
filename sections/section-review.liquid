@@ -1,0 +1,115 @@
+{{ 'section-review.css' | asset_url | stylesheet_tag }}
+
+<section class="section-review">
+  <div class="page-width">
+    <div class="review-slider">
+      <div class="main-title">
+        <h2>{{ section.settings.section_title }}</h2>
+        <p class="subtitle">{{ section.settings.section_subtitle }}</p>
+      </div>
+
+      {% comment %}
+        {%for block in section.blocks %}
+        <div class="slider-text">
+          <div class="text-block">
+            <p> {{ block.settings.paragraph }} </p>
+            <h3> {{ block.settings.customer_name }}  </h3>
+            <span class="post"> {{ block.settings.customer_designation }} </span>
+          </div>
+        </div>
+        {%endfor %}
+      {% endcomment %}
+
+      <div class="slider-text">
+        <div class="text-block">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget varius nunc. Integer faucibus nibh odio,
+            ut mattis turpis blandit ullamcorper. In pellentesque urna nec lectus iaculis, eget mollis tortor venenatis.
+            Praesent nec arcu quis nisi dictum tincidunt. Integer gravida libero non nulla posuere, ac ullamcorper
+            turpis varius. Praesent at fringilla lectus. Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. Nunc quis libero erat. Praesent sapien urna, mollis id tincidunt egestas,
+            tempor eget elit.
+          </p>
+          <h3>Luies Charls</h3>
+          <span class="post">Developer</span>
+        </div>
+        <div class="text-block">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget varius nunc. Integer faucibus nibh odio,
+            ut mattis turpis blandit ullamcorper. In pellentesque urna nec lectus iaculis, eget mollis tortor venenatis.
+            Praesent nec arcu quis nisi dictum tincidunt. Integer gravida libero non nulla posuere, ac ullamcorper
+            turpis varius. Praesent at fringilla lectus. Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. Nunc quis libero erat. Praesent sapien urna, mollis id tincidunt egestas,
+            tempor eget elit.
+          </p>
+          <h3>Jecob Goeckno</h3>
+          <span class="post">Manager</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ 'slick.css' | asset_url | stylesheet_tag }}
+{{ 'slick-theme.css' | asset_url | stylesheet_tag }}
+
+<script src="{{ 'jquery-3.7.1.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+<script>
+  $(document).ready(function () {
+    $('.slider-text').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Section Review",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Title",
+      "id": "section_title"
+    },
+    {
+      "type": "text",
+      "label": "SubTitle",
+      "id": "section_subtitle"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review_slider",
+      "name": "review slider",
+      "settings": [
+        {
+          "type": "richtext",
+          "label": "Paragraph",
+          "id": "paragraph"
+        },
+        {
+          "type": "text",
+          "label": "Name",
+          "id": "customer_name"
+        },
+        {
+          "type": "text",
+          "label": "Designation",
+          "id": "customer_designation"
+        }
+      ]
+    }
+  ],
+  "class": "section-review",
+  "tag": "section",
+  "presets": [
+    {
+      "name": "Section Review"
+    }
+  ]
+}
+{% endschema %}

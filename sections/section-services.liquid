@@ -1,0 +1,59 @@
+{{ 'section-services.css' | asset_url | stylesheet_tag }}
+
+    <div class="page-width">
+        <div class="row">
+            {% for block in section.blocks %}
+            <div class="col">
+                <div class="services-block">
+                    <div class="img-box">
+                        {% if block.settings.block_img != blank %}
+                            <img src="{{ block.settings.block_img | image_url }}" height="" width="" alt="">
+                        {% endif %}
+                    </div>
+
+                    <div class="info">
+                        <h3> {{ block.settings.block_heading }} </h3>
+                        <p> {{ block.settings.block_info }} </p>
+                    </div>
+                </div>
+            </div>
+            {%endfor %}
+        </div>
+    </div>
+
+{% schema %}
+{
+    "name": "Section Services",
+    "settings": [],
+    "blocks": [
+        {
+            "type": "services",
+            "name": "Services-Card",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "label": "Image",
+                    "id": "block_img"
+                },
+                {
+                    "type": "text",
+                    "label": "Heading",
+                    "id": "block_heading"
+                },
+                {
+                    "type": "inline_richtext",
+                    "label": "Info",
+                    "id": "block_info"
+                }
+            ]
+        }
+    ],
+    "tag": "section",
+    "class": "section-services",
+    "presets": [
+        {
+            "name": "Section Services"
+        }
+    ]
+}
+{%endschema %}

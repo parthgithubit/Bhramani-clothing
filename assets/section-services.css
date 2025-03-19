@@ -1,0 +1,41 @@
+.section-services{
+    padding: 50px 0;
+}
+
+.section-services .row{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.section-services .row .col{
+    width: 100%;
+    max-width: 25%;
+}
+
+.section-services .services-block{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.section-services .services-block .img-box img{
+    height: 84px;
+    width: 84px;
+}
+
+.section-services .services-block .info h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section-services .services-block .info p{
+    margin: .5rem 0 0;
+    font-size: 14px;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}

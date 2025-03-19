@@ -1,0 +1,60 @@
+{{ 'section-instagram-post.css' | asset_url | stylesheet_tag }}
+
+
+  <div class="text">
+    <h2 class="main-title">{{ section.settings.section_title }}</h2>
+    <p class="subtitle">{{ section.settings.section_subtitle }}</p>
+  </div>
+
+  <div class="row">
+    {% for block in section.blocks %}
+      <div class="col-2">
+        <a href="#" class="instagram-link">
+          <div class="instagram-img">
+            <img src="{{ block.settings.instagram_image | image_url }}" height="" width="" alt="">
+            <div class="instagram-icon">
+                {{- 'instagram-icon.svg' | inline_asset_content -}}
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+{% schema %}
+{
+  "name": "Section Instagram Post",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Title",
+      "id": "section_title"
+    },
+    {
+      "type": "text",
+      "label": "SubTitle",
+      "id": "section_subtitle"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_picker",
+      "name": "Instagram Post",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Instagram Image",
+          "id": "instagram_image"
+        }
+      ]
+    }
+  ],
+  "tag": "section",
+  "class": "section-instagram-post",
+  "presets": [
+    {
+      "name": "Section Instagram Post"
+    }
+  ]
+}
+{% endschema %}

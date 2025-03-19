@@ -1,0 +1,51 @@
+{% if section.settings.media_selection == 'youtube_video' %}
+  {% if section.settings.custom_iframe != blank %}
+    <div class="video-box">
+      {{ section.settings.custom_iframe }}
+    </div>
+  {% endif %}
+{% elsif section.settings.media_selection == 'custom_video' %}
+  <div class="video-box">
+    {{ section.settings.custom_video_id | video_tag: autoplay: false, loop: true, muted: true, controls: true }}
+  </div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Video Banner",
+    "settings": [
+      {
+        "type": "select",
+        "id": "media_selection",
+        "label": "Select Video Type",
+        "options": [
+          {
+            "value": "youtube_video",
+            "label": "Youtube Video"
+          },
+          {
+            "value": "custom_video",
+            "label": "Normal Video"
+          }
+        ],
+        "default": "youtube_video"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_iframe",
+        "label": "Custom iframe Code",
+        "info": "Paste the full iframe code here"
+      },
+      {
+        "type": "video",
+        "id": "custom_video_id",
+        "label": "Select Video"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Video Banner"
+      }
+    ]
+  }
+{% endschema %}
