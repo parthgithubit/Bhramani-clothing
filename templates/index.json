@@ -403,6 +403,50 @@
         "section_title": "@PANDORA",
         "section_subtitle": "#follow on social media"
       }
+    },
+    "section_services_LKfU7d": {
+      "type": "section-services",
+      "blocks": {
+        "services_HzRRqK": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-1.png",
+            "block_heading": "100 DAY RETURNS",
+            "block_info": "No-Nonsense Return PolicyIf You Aren't Happy."
+          }
+        },
+        "services_yEfdUk": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-2.png",
+            "block_heading": "FREE SHIPPING",
+            "block_info": "Your Precious Package IsExpedited And Insured."
+          }
+        },
+        "services_npgizM": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-3.png",
+            "block_heading": "SECURE PAYMENT",
+            "block_info": "Your Payment Information IsEncryption."
+          }
+        },
+        "services_LRJPPG": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-4.png",
+            "block_heading": "CUSTOMER SUPPORT",
+            "block_info": "Our Support Team AreReady 24/7 To Answer Any Have."
+          }
+        }
+      },
+      "block_order": [
+        "services_HzRRqK",
+        "services_yEfdUk",
+        "services_npgizM",
+        "services_LRJPPG"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -415,6 +459,7 @@
     "video_6YWRAF",
     "featured_blog_CBazJp",
     "section_review_cK3MW4",
-    "section_instagram_post_8WrXhL"
+    "section_instagram_post_8WrXhL",
+    "section_services_LKfU7d"
   ]
 }
