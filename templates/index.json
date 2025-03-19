@@ -341,6 +341,35 @@
         "section_title": "@PANDORA",
         "section_subtitle": "#follow on social media"
       }
+    },
+    "section_offer_xqyLBT": {
+      "type": "section-offer",
+      "blocks": {
+        "offercard_3F7QmB": {
+          "type": "offercard",
+          "settings": {
+            "card_img": "shopify://shop_images/offer-bg-1.png",
+            "cardtitle": "MEN’S WEAR",
+            "cardsubtitle": "Big Sale 50% Off"
+          }
+        },
+        "offercard_Ty4r8h": {
+          "type": "offercard",
+          "settings": {
+            "card_img": "shopify://shop_images/offer-bg-2.png",
+            "cardtitle": "FLASH SALE",
+            "cardsubtitle": "Upto 60% Discount"
+          }
+        }
+      },
+      "block_order": [
+        "offercard_3F7QmB",
+        "offercard_Ty4r8h"
+      ],
+      "settings": {
+        "section_heading": "EXCLUSIVE OFFER!",
+        "subtitle": "UNBOX YOUR HAPPINESS WITH PANDORa"
+      }
     }
   },
   "order": [
@@ -350,6 +379,7 @@
     "featured_collection",
     "image_banner_JKkK9z",
     "section_review_cK3MW4",
-    "section_instagram_post_8WrXhL"
+    "section_instagram_post_8WrXhL",
+    "section_offer_xqyLBT"
   ]
 }
