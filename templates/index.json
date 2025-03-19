@@ -262,9 +262,31 @@
     },
     "section_review_cK3MW4": {
       "type": "section-review",
+      "blocks": {
+        "review_slider_entiWw": {
+          "type": "review_slider",
+          "settings": {
+            "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget varius nunc. Integer faucibus nibh odio, ut mattis turpis blandit ullamcorper. In pellentesque urna nec lectus iaculis, eget mollis tortor venenatis. Praesent nec arcu quis nisi dictum tincidunt. Integer gravida libero non nulla posuere, ac ullamcorper turpis varius. Praesent at fringilla lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc quis libero erat. Praesent sapien urna, mollis id tincidunt egestas, tempor eget elit.</p>",
+            "customer_name": "Mack Johnson",
+            "customer_designation": "Fashion Designer"
+          }
+        },
+        "review_slider_ifmcXq": {
+          "type": "review_slider",
+          "settings": {
+            "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget varius nunc. Integer faucibus nibh odio, ut mattis turpis blandit ullamcorper. In pellentesque urna nec lectus iaculis, eget mollis tortor venenatis. Praesent nec arcu quis nisi dictum tincidunt. Integer gravida libero non nulla posuere, ac ullamcorper turpis varius. Praesent at fringilla lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc quis libero erat. Praesent sapien urna, mollis id tincidunt egestas, tempor eget elit.</p>",
+            "customer_name": "Luies Charls",
+            "customer_designation": "Developer"
+          }
+        }
+      },
+      "block_order": [
+        "review_slider_entiWw",
+        "review_slider_ifmcXq"
+      ],
       "settings": {
-        "section_title": "",
-        "section_subtitle": ""
+        "section_title": "CUSTOMER REVIEWS",
+        "section_subtitle": "what says our customers about us!"
       }
     }
   },
