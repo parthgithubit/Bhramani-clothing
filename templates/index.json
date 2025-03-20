@@ -260,6 +260,68 @@
         "show_text_below": true
       }
     },
+    "section_offer_xqyLBT": {
+      "type": "section-offer",
+      "blocks": {
+        "offercard_3F7QmB": {
+          "type": "offercard",
+          "settings": {
+            "card_img": "shopify://shop_images/offer-bg-1.png",
+            "cardtitle": "MEN’S WEAR",
+            "cardsubtitle": "Big Sale 50% Off"
+          }
+        },
+        "offercard_Ty4r8h": {
+          "type": "offercard",
+          "settings": {
+            "card_img": "shopify://shop_images/offer-bg-2.png",
+            "cardtitle": "FLASH SALE",
+            "cardsubtitle": "Upto 60% Discount"
+          }
+        }
+      },
+      "block_order": [
+        "offercard_3F7QmB",
+        "offercard_Ty4r8h"
+      ],
+      "settings": {
+        "section_heading": "EXCLUSIVE OFFER!",
+        "subtitle": "UNBOX YOUR HAPPINESS WITH PANDORa"
+      }
+    },
+    "video_6YWRAF": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=4iVYTQe88b8",
+        "cover_image": "shopify://shop_images/video-image.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_CBazJp": {
+      "type": "featured-blog",
+      "settings": {
+        "blog": "nullam-ultricies-ligula-velit-quis-vehicula",
+        "post_limit": 3,
+        "heading": "OUR LATEST BLOG",
+        "subtitle": "The freshest and most exciting news",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "section_review_cK3MW4": {
       "type": "section-review",
       "blocks": {
@@ -288,6 +350,188 @@
         "section_title": "CUSTOMER REVIEWS",
         "section_subtitle": "what says our customers about us!"
       }
+    },
+    "collapsible_content_raAp3t": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_mKLpQR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Shipping Methods Are Available?",
+            "icon": "check_mark",
+            "row_content": "<p>Male evening subdue heaven Is, seas great creepeth under second evening from give theyre upon third give void bring fowl image years all. Cant life a. Dominion god which dont upon.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Qxymzm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are shipping times and costs?",
+            "icon": "check_mark",
+            "row_content": "<p>Complimentary ground shipping within 1 to 7 business days</p><p>In-store collection available within 1 to 7 business days</p><p>Next-day and Express delivery options also available</p><p>Purchases are delivered in an orange box tied with a Bolduc ribbon, with the exception of certain items</p><p>See the delivery FAQs for details on shipping methods, costs and delivery times</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mcPy9L": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What payment methods can I use?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_RribgY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your exchanges, returns and refunds policy?",
+            "icon": "none",
+            "row_content": "<p>Items returned within 14 days of their original shipment date in same as new condition will be eligible for a full refund or store credit. Refunds will be charged back to the original form of payment used for purchase. Customer is responsible for shipping charges when making returns and shipping/handling fees of original purchase is non-refundable.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_mKLpQR",
+        "collapsible_row_Qxymzm",
+        "collapsible_row_mcPy9L",
+        "collapsible_row_RribgY"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_instagram_post_8WrXhL": {
+      "type": "section-instagram-post",
+      "blocks": {
+        "image_picker_9xFYVx": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-1.png"
+          }
+        },
+        "image_picker_9qDDX3": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-2.png"
+          }
+        },
+        "image_picker_Jwij7B": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-3.png"
+          }
+        },
+        "image_picker_B69YJK": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-4.png"
+          }
+        },
+        "image_picker_mXiTbi": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-5.png"
+          }
+        },
+        "image_picker_hwhwCA": {
+          "type": "image_picker",
+          "settings": {
+            "instagram_image": "shopify://shop_images/instagram-6.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_picker_9xFYVx",
+        "image_picker_9qDDX3",
+        "image_picker_Jwij7B",
+        "image_picker_B69YJK",
+        "image_picker_mXiTbi",
+        "image_picker_hwhwCA"
+      ],
+      "settings": {
+        "section_title": "@PANDORA",
+        "section_subtitle": "#follow on social media"
+      }
+    },
+    "section_services_LKfU7d": {
+      "type": "section-services",
+      "blocks": {
+        "services_HzRRqK": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-1.png",
+            "block_heading": "100 DAY RETURNS",
+            "block_info": "No-Nonsense Return PolicyIf You Aren't Happy."
+          }
+        },
+        "services_yEfdUk": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-2.png",
+            "block_heading": "FREE SHIPPING",
+            "block_info": "Your Precious Package IsExpedited And Insured."
+          }
+        },
+        "services_npgizM": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-3.png",
+            "block_heading": "SECURE PAYMENT",
+            "block_info": "Your Payment Information IsEncryption."
+          }
+        },
+        "services_LRJPPG": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-4.png",
+            "block_heading": "CUSTOMER SUPPORT",
+            "block_info": "Our Support Team AreReady 24/7 To Answer Any Have."
+          }
+        }
+      },
+      "block_order": [
+        "services_HzRRqK",
+        "services_yEfdUk",
+        "services_npgizM",
+        "services_LRJPPG"
+      ],
+      "settings": {}
+    },
+    "section_banner_nFU4P8": {
+      "type": "section-banner",
+      "blocks": {
+        "banner_KUwriB": {
+          "type": "banner",
+          "settings": {
+            "media_selection": "image",
+            "custom_image": "shopify://shop_images/instagram-6.png"
+          }
+        },
+        "banner_LX7QCe": {
+          "type": "banner",
+          "settings": {
+            "media_selection": "video",
+            "custom_video": "shopify://files/videos/banner-video.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "banner_KUwriB",
+        "banner_LX7QCe"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -296,6 +540,13 @@
     "section_categories_VwKVE7",
     "featured_collection",
     "image_banner_JKkK9z",
-    "section_review_cK3MW4"
+    "section_offer_xqyLBT",
+    "video_6YWRAF",
+    "featured_blog_CBazJp",
+    "section_review_cK3MW4",
+    "collapsible_content_raAp3t",
+    "section_instagram_post_8WrXhL",
+    "section_services_LKfU7d",
+    "section_banner_nFU4P8"
   ]
 }
