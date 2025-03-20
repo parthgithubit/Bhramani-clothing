@@ -212,52 +212,13 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_JKkK9z": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_VqAxD6": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE BEST ACCESSORIES OF 2022",
-            "heading_size": "h1"
-          }
-        },
-        "text_FfkCgJ": {
-          "type": "text",
-          "settings": {
-            "text": "Now at a special price!",
-            "text_style": "body"
-          }
-        },
-        "buttons_ypQBfM": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_VqAxD6",
-        "text_FfkCgJ",
-        "buttons_ypQBfM"
-      ],
+    "section_accessories_Dq43wW": {
+      "type": "section-accessories",
       "settings": {
-        "image": "shopify://shop_images/parallax.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-right",
-        "desktop_content_alignment": "left",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "title": "THE BEST ACCESSORIES OF 2022",
+        "subtitle": "Now at a special price!",
+        "button_url": "",
+        "button_text": "shop now"
       }
     },
     "section_offer_xqyLBT": {
@@ -268,7 +229,9 @@
           "settings": {
             "card_img": "shopify://shop_images/offer-bg-1.png",
             "cardtitle": "MEN’S WEAR",
-            "cardsubtitle": "Big Sale 50% Off"
+            "cardsubtitle": "Big Sale 50% Off",
+            "button_url": "",
+            "button_text": ""
           }
         },
         "offercard_Ty4r8h": {
@@ -276,7 +239,9 @@
           "settings": {
             "card_img": "shopify://shop_images/offer-bg-2.png",
             "cardtitle": "FLASH SALE",
-            "cardsubtitle": "Upto 60% Discount"
+            "cardsubtitle": "Upto 60% Discount",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
@@ -531,7 +496,11 @@
         "banner_KUwriB",
         "banner_LX7QCe"
       ],
-      "settings": {}
+      "settings": {
+        "banner_heading": "",
+        "banner_text": "",
+        "banner_button": ""
+      }
     }
   },
   "order": [
@@ -539,7 +508,7 @@
     "collection_list_Q94WQE",
     "section_categories_VwKVE7",
     "featured_collection",
-    "image_banner_JKkK9z",
+    "section_accessories_Dq43wW",
     "section_offer_xqyLBT",
     "video_6YWRAF",
     "featured_blog_CBazJp",
