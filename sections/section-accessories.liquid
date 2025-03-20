@@ -1,0 +1,48 @@
+{{ 'section-accessories.css' | asset_url | stylesheet_tag }}
+
+<div class="accessories-content">
+    <div class="page-width">
+        <div class="text">
+            <h2> {{ section.settings.title }} </h2>
+            <p> {{ section.settings.subtitle }} </p>
+            <a href="{{ section.settings.button_url}}" class="button-primary"> {{ section.settings.button_text }} 
+                {{ 'right-arrow.svg' | inline_asset_content }}
+            </a>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "section-accessories",
+    "settings": [
+        {
+            "type": "text",
+            "label": "Title",
+            "id": "title"
+        },
+        {
+            "type": "text",
+            "label": "Subtitle",
+            "id": "subtitle"
+        },
+        {
+            "type": "url",
+            "label": "Button URL",
+            "id": "button_url"
+        },
+        {
+            "type": "text",
+            "label": "Button Text",
+            "id": "button_text"
+        },
+    ],
+    "tag": "section",
+    "class": "section-accessories",
+    "presets": [
+        {
+            "name": "section-accessories"
+        }
+    ]
+}
+{% endschema %}

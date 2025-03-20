@@ -1,0 +1,21 @@
+.section-collection-list .collection-list-wrapper .card-wrapper .card--media .card__content .card__information .card__heading .full-unstyled-link{
+    background: #ffffff;
+    color: #000000;
+    transition: all .4s ease;
+    padding: 0 36px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 78px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .section-collection-list .collection-list-wrapper .card-wrapper .card--media .card__content .card__information .card__heading .full-unstyled-link:hover{
+    background-color: #044b61;
+    color: #ffffff;
+    padding: 0px 2.7rem;
+  }

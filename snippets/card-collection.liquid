@@ -13,6 +13,8 @@
   {% render 'card-collection' %}
 {% endcomment %}
 
+{{ 'section-collection-card.css' | asset_url | stylesheet_tag }}
+
 {%- liquid
   assign ratio = 1
   if card_collection.featured_image and media_aspect_ratio == 'portrait'

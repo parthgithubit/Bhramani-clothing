@@ -1,6 +1,5 @@
 {{ 'section-banner.css' | asset_url | stylesheet_tag }}
 
-<section class="section-banner">
   <div class="page-width">
     <div class="main-slider">
       {% for block in section.blocks %}
@@ -11,6 +10,11 @@
               {% if block.settings.custom_image != blank %}
                 <div class="img-box">
                  <img src="{{ block.settings.custom_image | image_url }}" height="" width="" alt="">
+                 <div class="text">
+                    <h1> {{ section.settings.banner_heading }} </h1>
+                    <p> {{ section.settings.banner_text }} </p>
+                    <a  href="#"> {{  section.settings.banner_button }} </a>
+                 </div>
                 </div>
               {% endif %}
             {% elsif block.settings.media_selection == 'video' %}
@@ -24,7 +28,6 @@
       {% endfor %}
     </div>
   </div>
-</section>
 
 <script>
   $('.banner-slider').slick({
@@ -38,9 +41,25 @@
 {% schema %}
 {
   "name": "Section Banner",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "label": "Banner heading",
+      "id": "banner_heading",
+    },
+    {
+      "type": "text",
+      "label": "Banner Text",
+      "id": "banner_text",
+    },
+    {
+      "type": "url",
+      "label": "Banner Button",
+      "id": "banner_button",
+    },
+  ],
   "tag": "section",
-  "class": "section",
+  "class": "section-banner",
   "blocks": [
     {
       "type": "banner",
@@ -71,7 +90,7 @@
           "type": "video",
           "id": "custom_video",
           "label": "Select Video"
-        }
+        },
       ]
     }
   ],
