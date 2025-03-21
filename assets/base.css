@@ -2424,10 +2424,6 @@ input[type='checkbox'] {
   background-color: rgb(var(--color-background));
 }
 
-.header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-}
-
 .header {
   display: grid;
   grid-template-areas: 'left-icons heading icons';
@@ -2870,7 +2866,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 1.2rem;
+  padding: 1.2rem 2rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
 }
@@ -2880,17 +2876,44 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item span {
-  transition: text-decoration var(--duration-short) ease;
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  color: #000000;
 }
 
-.header__menu-item:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+.header__menu-item:hover span{
+  color: #044b61;
 }
 
-details[open] > .header__menu-item {
-  text-decoration: underline;
+.header__menu-item:hover span{
+  text-underline-offset: .3rem;
 }
+
+.header__inline-menu ul li:hover .header__menu-item span:after{
+  opacity: 1;
+  -webkit-opacity: 1;
+  width: 100%;
+}
+
+.header__menu-item span::after{
+  position: absolute;
+    content: "";
+    left: 0;
+    top: auto;
+    border-top: 2px solid #044b61;
+    width: 0;
+    opacity: 0;
+    -webkit-opacity: 0;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .6s ease 0s;
+    bottom: -5px;
+}
+
+/* details[open] > .header__menu-item {
+  text-decoration: underline;
+} */
 
 details[open]:hover > .header__menu-item {
   text-decoration-thickness: 0.2rem;
@@ -2902,9 +2925,13 @@ details[open] > .header__menu-item .icon-caret {
 
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
-  color: rgb(var(--color-foreground));
-  text-decoration: underline;
+  color: #044b61 !important;
   text-underline-offset: 0.3rem;
+}
+
+.header__inline-menu ul li .header__menu-item .header__active-menu-item:after{
+  opacity: 1;
+  width: 100%;
 }
 
 .header__menu-item:hover .header__active-menu-item {

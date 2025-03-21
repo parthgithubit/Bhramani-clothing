@@ -106,6 +106,19 @@
             </div>
           </div>
         {%- endif -%}
+
+        <div class="hover-buttons">
+          <button class="button button-wishlist">
+            {{ 'heart-icon.svg' | inline_asset_content }}
+          </button>
+          <button class="button button-wishlist">
+            {{ 'zoom-in.svg' | inline_asset_content }}
+          </button>
+          <button class="button add-to-cart">
+            {{ 'shopping-cart.svg' | inline_asset_content }}
+          </button>
+        </div>
+
         <div class="card__content">
           <div class="card__information">
             <h3

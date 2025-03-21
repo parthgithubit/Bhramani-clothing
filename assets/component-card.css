@@ -85,10 +85,10 @@
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
-.card--card.gradient,
+/* .card--card.gradient,
 .card__inner.gradient {
   transform: perspective(0);
-}
+} */
 
 /* Needed for gradient continuity with or without animation so that transparent PNG images come up as we would expect */
 .card__inner.color-scheme-1 {
@@ -646,4 +646,52 @@
   .grid__item:nth-child(8n) .product-card-wrapper:hover .shape--blob {
     clip-path: polygon(var(--shape--blob-5));
   }
+}
+
+.hover-buttons{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  opacity: 0;
+  transition: all .5s ease;
+  transform: translateX(10px);
+  -webkit-transition: all .5s ease;
+}
+
+.hover-buttons .button{
+  width: 38px;
+  height: 38px;
+  border: 1px solid #C0C0C0;
+  background: none;
+  padding: 0;
+  min-width: auto;
+  min-height: auto;
+  border-radius: 50%;
+  background: #fff;
+  margin-bottom: 5px;
+}
+
+.hover-buttons .button:hover{
+  background-color: #044b61;
+}
+
+.hover-buttons .button:hover svg path{
+  fill: #ffffff;
+}
+
+.hover-buttons .button svg{
+  height: 16px;
+  width: 16px;
+}
+
+.hover-buttons .button svg path{
+  fill: #000000;
+}
+
+.card-wrapper:hover .hover-buttons{
+  opacity: 1;
+  transform: translateX(0);
 }

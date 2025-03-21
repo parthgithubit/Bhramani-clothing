@@ -34,12 +34,15 @@
   transform: translateY(0);
 }
 
+
+
 .mega-menu__list {
   display: grid;
   gap: 1.8rem 4rem;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   list-style: none;
 }
+
 
 .mega-menu__link {
   color: rgba(var(--color-foreground), 0.75);
@@ -50,10 +53,16 @@
   text-decoration: none;
   transition: text-decoration var(--duration-short) ease;
   word-wrap: break-word;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .mega-menu__link--level-2 {
-  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: capitalize;
+  color: #000000;
+  font-weight: 400;
+  font-family: var(--font-body-family);
 }
 
 .header--top-center .mega-menu__list {
@@ -70,8 +79,7 @@
 
 .mega-menu__link:hover,
 .mega-menu__link--active {
-  color: rgb(var(--color-foreground));
-  text-decoration: underline;
+  color: #044b61;
 }
 
 .mega-menu__link--active:hover {
