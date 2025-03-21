@@ -268,7 +268,9 @@
           "settings": {
             "card_img": "shopify://shop_images/offer-bg-1.png",
             "cardtitle": "MEN’S WEAR",
-            "cardsubtitle": "Big Sale 50% Off"
+            "cardsubtitle": "Big Sale 50% Off",
+            "button_url": "",
+            "button_text": "shop now"
           }
         },
         "offercard_Ty4r8h": {
@@ -276,7 +278,9 @@
           "settings": {
             "card_img": "shopify://shop_images/offer-bg-2.png",
             "cardtitle": "FLASH SALE",
-            "cardsubtitle": "Upto 60% Discount"
+            "cardsubtitle": "Upto 60% Discount",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
@@ -531,7 +535,11 @@
         "banner_KUwriB",
         "banner_LX7QCe"
       ],
-      "settings": {}
+      "settings": {
+        "banner_heading": "",
+        "banner_text": "",
+        "banner_button": ""
+      }
     }
   },
   "order": [
