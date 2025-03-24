@@ -66,11 +66,15 @@
                       {%- endif -%}
                     </li>
 
-                  <div class="image-wrapper">
-                    <div class="image-box">
-                      <img src={{  }}>
-                    </div>
-                  </div>
+                    {% for image_wrapper in section.blocks %}
+                      <div class="image-wrapper">
+                        <div class="image-box">
+                          <img src="{{ image_wrapper.settings.megamenu_image | image_url  }}" height="" width="">
+                          <h6> 100% Real </h6>
+                        </div>
+                      </div>
+                      {%endfor %}
+
                   {%- endfor -%}
                 </ul>
               </div>

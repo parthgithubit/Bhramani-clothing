@@ -19,14 +19,22 @@
                     height="">
                 </div>
               {%endif %}
+            </a>
 
                 <div class="sub-banner-text">
-                  <h3> {{ offercard.settings.cardtitle }} </h3>
-                  <p> {{ offercard.settings.cardsubtitle }} </p>
-                  <a href=" {{ offercard.settings.card_url }} " class="btnshopnow"> {{ offercard.settings.button_text }} </a>
+                  {% if offercard.settings.cardtitle != blank %}
+                    <h3> {{ offercard.settings.cardtitle }} </h3>
+                  {% endif %}
+
+                  {% if offercard.settings.cardsubtitle != blank  %}
+                    <p> {{ offercard.settings.cardsubtitle }} </p>
+                  {% endif %}
+
+                  {% if offercard.settings.card_url != blank or offercard.settings.button_text != blank %}
+                    <a href=" {{ offercard.settings.card_url }} " class="btnshopnow"> {{ offercard.settings.button_text }} </a>
+                  {% endif %}
                 </div>
               
-            </a>
           </div>
         </div>
         {%endfor %}

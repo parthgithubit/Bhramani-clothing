@@ -1,0 +1,37 @@
+{{ 'section-about-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="section-about-banner">
+    <div class="banner-img">
+        <img src="{{ section.settings.banner_img | image_url }}" height="" width="">
+    </div>
+    <div class="page-width">
+        <div class="banner-content">
+            <h2> {{ section.settings.title }} </h2>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "section-about-us",
+    "settings": [
+        {
+            "type": "image_picker",
+            "label": "Banner Image",
+            "id": "banner_img"
+        },
+        {
+            "type": "text",
+            "label": "Title",
+            "id": "title"
+        },
+    ],
+    "tag": "section",
+    "class": "section-about-us",
+    "presets": [
+        {
+            "name": "section-about-us"
+        }
+    ]
+}
+{% endschema %}
