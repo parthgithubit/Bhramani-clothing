@@ -9,17 +9,22 @@
 
       <ul>
         
-        {% for block in section.blocks %}
-        <li>
-          <a href="#">
-            <div class="category-icon">
-              <img src="{{ block.settings.block_img | image_url }}" height="" width="">
-            </div>
-            <div class="category-title">
-              <h3> {{ block.settings.block_title }} </h3>
-            </div>
-          </a>
-        </li>
+        {% for cards in section.blocks %}
+          {% case cards.type %}
+           {% when 'cards' %}
+            <li>
+              {% if cards.settings.block_link_text != blank or cards.settings.block_img != blank or cards.settings.block_title != blank %}
+                <a href="{{ cards.settings.block_link_text }}">
+                    <div class="category-icon">
+                      <img src="{{ cards.settings.block_img | image_url }}" height="120" width="120" alt="block-img" loading="lazy">
+                    </div>
+                    <div class="category-title">
+                      <h3> {{ cards.settings.block_title }} </h3>
+                    </div>
+                </a>
+              {% endif %}
+            </li>
+          {% endcase %}
         {% endfor %}
         
       </ul>
@@ -41,9 +46,14 @@
     "tag": "section",
     "blocks": [
       {
-        "type": "CategoryBlock",
+        "type": "cards",
         "name": "Category Block",
         "settings": [
+          {
+            "type": "url",
+            "label": "Block URL",
+            "id": "block_link_text"
+          },
           {
             "type": "image_picker",
             "label": "Block Img",

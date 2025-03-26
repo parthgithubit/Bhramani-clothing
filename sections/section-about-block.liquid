@@ -1,0 +1,70 @@
+{{ 'section-about-block.css' | asset_url | stylesheet_tag }}
+
+<div class="section-about">
+    <div class="page-width">
+        <div class="row">
+
+            {% for about_block in section.blocks %}
+                <div class="col">
+                    <div class="about-block">
+                        {% if about_block.settings.block_img != blank %}
+                        <div class="img-box">
+                            <img src="{{ about_block.settings.block_img | image_url }}" height="" width="" loading="lazy">
+                        </div>
+                        {% endif %}
+
+                            <div class="block-details">
+
+                            {% if about_block.settings.block_title != blank %}
+                                <h3> {{ about_block.settings.block_title }} </h3>
+                            {% endif %}
+
+                            {% if about_block.settings.block_subtitle != blank %}
+                                {{ about_block.settings.block_subtitle }}
+                            {%  endif %}
+                            
+                        </div>
+                    </div>
+                </div>
+            {%endfor %}
+
+        </div>
+    </div>
+</div>
+
+{%schema %}
+{
+    "name":"section about",
+    "settings": [],
+    "blocks":[
+        {
+            "type":"about_block",
+            "name": "About Block",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "label": "Block Image",
+                    "id": "block_img"
+                },
+                {
+                    "type": "text",
+                    "label": "Title",
+                    "id": "block_title"
+                },
+                {
+                    "type": "richtext",
+                    "label": "subtitle",
+                    "id": "block_subtitle"
+                }
+            ]
+        }
+    ],
+    "tag": "section",
+    "class": "section-about",
+    "presets":[
+        {
+            "name":"section about"
+        }
+    ]
+}
+{%endschema %}

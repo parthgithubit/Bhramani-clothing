@@ -1,0 +1,71 @@
+{{ 'section-image-with-text.css' | asset_url | stylesheet_tag}}
+
+<div class="section-image-with-text">
+    <div class="page-width">
+        {%  for about_block in section.blocks %}
+        <div class="row {% if about_block.settings.align_media %} row-reverse {% endif %}">
+            <div class="col">
+                <div class="text-block">
+                    {% if about_block.settings.text_title != blank %}
+                        <h2> {{ about_block.settings.text_title }} </h2>
+                    {% endif %}
+                    {% if about_block.settings.text_paragraph != blank %}
+                        {{ about_block.settings.text_paragraph }}
+                    {% endif %}
+                </div>
+            </div>
+
+            <div clas="col">
+                {% if about_block.settings.block_img != blank %}
+                    <div class="img-box">
+                        <img src="{{ about_block.settings.block_img | image_url }}" height="" width="" alt="Block Image" loading="lazy">
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{%  schema %}
+{
+    "name": "Section Image with Text",
+    "settings": [],
+    "blocks": [
+        {
+            "type": "about_block",
+            "name": "About Block",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "text_title",
+                    "label": "Title"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text_paragraph",
+                    "label": "Paragraph"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "block_img",
+                    "label": "Block Image"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "align_media",
+                    "label": "Align Media",
+                    "default": false,
+                }
+            ]
+        }
+    ],
+    "tag": "section",
+    "class": "section",
+    "presets": [
+        {
+            "name": "Section Image with Text"
+        }
+    ]
+}
+{% endschema %}

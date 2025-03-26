@@ -39,7 +39,7 @@
           {{ section.settings.heading }}
         </h2>
 
-        {%- if section.settings.blog != blank
+        {% comment %} {%- if section.settings.blog != blank
           and section.settings.show_view_all
           and section.settings.post_limit < section.settings.blog.articles_count
         -%}
@@ -49,7 +49,7 @@
           >
             {{ 'sections.featured_blog.view_all' | t }}
           </a>
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
       </div>
     {%- endunless -%}
 

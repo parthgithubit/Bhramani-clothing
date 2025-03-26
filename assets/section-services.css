@@ -5,12 +5,12 @@
 .section-services .row{
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 20px;
 }
 
 .section-services .row .col{
     width: 100%;
-    max-width: 25%;
+    max-width: calc(25% - 9px);
 }
 
 .section-services .services-block{
@@ -38,4 +38,35 @@
     letter-spacing: normal;
     text-transform: capitalize;
     font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width:1200px) {
+    .section-services .services-block .img-box img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:989px) {
+    .section-services .row .col{
+        max-width: calc(50% - 15px);
+    }
+    .section-services .row{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:767px){
+    .section-services .services-block{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:375px){
+    .section-services .row .col{
+        max-width: 100%;
+    }
 }

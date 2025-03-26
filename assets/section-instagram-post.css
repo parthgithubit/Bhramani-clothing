@@ -17,17 +17,24 @@
 .section-instagram-post .row{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .section-instagram-post .row .col-2{
     width: 100%;
-    max-width: 16.66%;
+    max-width: calc(16.66% - 9px);
+}
+
+.section-instagram-post .instagram-img{
+    height: 264px;
+    width: 100%;
 }
 
 .section-instagram-post .instagram-img img{
     width: 100%;
-    height: 100%;
-    min-height: 264px;
+    height: 264px;
+    max-height: 264px;
     object-fit: cover;
 }
 .section-instagram-post .instagram-img .instagram-icon{
@@ -75,4 +82,32 @@
 
 .section-instagram-post a:hover::after{
     opacity: 1;
+}
+
+@media screen and (max-width:989px) {
+    .section-instagram-post .row{
+        justify-content: center;
+    }
+    .section-instagram-post .row .col-2{
+        max-width: calc(25% - 9px);
+    }
+}
+
+@media screen and (max-width:808px){
+    .section-instagram-post .row .col-2{
+        max-width: calc(33.33% - 9px);
+    }
+}
+
+@media screen and (max-width:620px){
+    .section-instagram-post .row .col-2{
+        max-width: calc(50% - 9px);
+    }
+    .section-instagram-post .instagram-img{
+        height: 210px;
+    }
+    .section-instagram-post .instagram-img img{
+        height: 210px;
+        max-height: 210px;
+    }
 }

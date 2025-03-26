@@ -26,7 +26,6 @@
 .section-review .review-slider .main-title .subtitle{
     font-size: 15px;
     font-weight: 400;
-    line-height: 27px;
     margin: 0 0 20px;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
@@ -42,6 +41,7 @@
     color: rgb(18,18,18);
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    letter-spacing: normal;
 }
 
 .section-review .review-slider .slider-text .text-block h3{
@@ -89,4 +89,36 @@
 
 .section-review .slider-text .slick-dots .slick-active button::before{
     background-color: #000000;
+}
+
+@media screen and (max-width:989px) {
+    .section-review .review-slider .main-title h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .section-review .review-slider .main-title .subtitle{
+        font-size: 14px;
+    }
+    .section-review .review-slider .slider-text .text-block{
+        padding: 1rem 50px;
+    }
+}
+
+@media screen and (max-width:749px){
+    .section-review{
+        margin: 20px 0;
+    }
+    .section-review .review-slider{
+        padding: 50px 0;
+    }
+    .section-review .review-slider .main-title h2{
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .section-review .review-slider .main-title .subtitle{
+       margin: 0 0 10px;
+    }
+    .section-review .review-slider .slider-text .text-block{
+        padding: 1rem 30px;
+    }
 }

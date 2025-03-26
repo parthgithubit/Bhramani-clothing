@@ -4,13 +4,10 @@
   margin-top: 48px;
 }
 
-.site-footer .page-width{
-  padding-bottom: 60px;
-}
-
 .site-footer .top-footer{
   display: flex;
   gap: 28px;
+  padding-bottom: 60px;
 }
 
 .site-footer .top-footer .footer-block,
@@ -57,6 +54,10 @@
 .site-footer .top-footer .footer-block .social-media ul li a svg{
   height: 22px;
   width: 22px;
+}
+
+.site-footer .top-footer .footer-block .social-media ul li a svg path{
+  fill: #000000;
 }
 
 .site-footer .top-footer .footer-block .social-media{
@@ -146,6 +147,37 @@ input::placeholder{
   font-family: 'Open Sans', sans-serif;
 }
 
+.footer-block__newsletter form .newsletter-form__field-wrapper .field::after{
+  content: none;
+  border: none;
+}
+
 .newsletter-form__message{
   color: #ffffff;
+}
+
+.site-footer .bottom-footer{
+  border-top: 1px solid #191919;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer .bottom-footer .copyrigth_text p{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.4px;
+  letter-spacing: 0.7px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  margin: 15px 0 0;
+}
+
+.site-footer .bottom-footer .copyrigth_text p a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.site-footer .bottom-footer .footer_payment img{
+  margin-top: 15px;
 }

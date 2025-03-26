@@ -57,11 +57,6 @@
   border: 0;
 }
 
-.collection-list .collection-list__item{
-  width: 100%;
-  max-width: calc(33.33% - 14px);
-}
-
 .collection-list-wrapper .collection-list{
   gap: 20px;
 }
@@ -691,4 +686,25 @@
 .card-wrapper:hover .hover-buttons{
   opacity: 1;
   transform: translateX(0);
+}
+
+
+.collection-list .collection-list__item{
+  width: 100%;
+  max-width: calc(33.33% - 14px);
+}
+
+@media screen and (max-width:990px) {
+  .collection-list .collection-list__item{
+    max-width: calc(50% - 10px);
+  }
+  .title-wrapper-with-link{
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .collection-list .collection-list__item{
+    max-width: 100%;
+  }
 }

@@ -1,25 +1,28 @@
 {{ 'section-instagram-post.css' | asset_url | stylesheet_tag }}
 
-
+<div class="page-width">
   <div class="text">
     <h2 class="main-title">{{ section.settings.section_title }}</h2>
     <p class="subtitle">{{ section.settings.section_subtitle }}</p>
   </div>
 
   <div class="row">
-    {% for block in section.blocks %}
-      <div class="col-2">
-        <a href="#" class="instagram-link">
-          <div class="instagram-img">
-            <img src="{{ block.settings.instagram_image | image_url }}" height="" width="" alt="">
-            <div class="instagram-icon">
-                {{- 'instagram-icon.svg' | inline_asset_content -}}
+    {% for instagram_post in section.blocks %}
+      {% if instagram_post.settings.instagram_link != blank or instagram_post.settings.instagram_image!= blank %}
+        <div class="col-2">
+          <a href="{{ instagram_post.settings.instagram_link }}" class="instagram-link">
+            <div class="instagram-img">
+              <img src="{{ instagram_post.settings.instagram_image | image_url }}" height="" width="" alt="">
+              <div class="instagram-icon">
+                  {{- 'instagram-icon.svg' | inline_asset_content -}}
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
+</div>
 
 {% schema %}
 {
@@ -38,9 +41,14 @@
   ],
   "blocks": [
     {
-      "type": "image_picker",
+      "type": "instagram_post",
       "name": "Instagram Post",
       "settings": [
+        {
+          "type": "url",
+          "label": "Instagram URL",
+          "id": "instagram_link"
+        },
         {
           "type": "image_picker",
           "label": "Instagram Image",

@@ -1,7 +1,7 @@
 {{ 'section-offer.css' | asset_url | stylesheet_tag }}
 
   <div class="page-width">
-    <div class="section-title">
+    <div class="title">
       <h2 class="main-title"> {{ section.settings.section_heading }} </h2>
       <h6 class="subtitle"> {{ section.settings.subtitle }} </h6>
     </div>
@@ -10,7 +10,7 @@
       {%for offercard in section.blocks %}
         <div class="col-6">
           <div class="sub-banner">
-            <a href="#">
+            <a href="{{ offercard.settings.card_url }}">
               {%if offercard.settings.card_img != blank %}
                 <div class="sub-banner-img">
                   <img src="{{ offercard.settings.card_img | image_url }}" alt=""
@@ -83,6 +83,11 @@
             "type": "url",
             "label": "Button URL",
             "id": "button_url"
+          },
+          {
+            "type": "url",
+            "label": "Card URL",
+            "id": "card_url"
           },
           {
             "type": "text",

@@ -2,11 +2,23 @@
     padding: 50px 0;
 }
 
-.section-offer .section-title{
-    text-align: center;
+.section-offer .row{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.section-offer .section-title .main-title{
+.section-offer .row .col-6{
+    width: 100%;
+    max-width: calc(50% - 10px);
+}
+
+.section-offer .title{
+    text-align: center;
+    margin: 0;
+}
+
+.section-offer .title .main-title{
     font-size: 40px;
     font-weight: 400;
     color: #000000;
@@ -16,45 +28,31 @@
     margin: 0 0 10px;
 }
 
-.section-offer .section-title .subtitle{
+.section-offer .title .subtitle{
     font-size: 15px;
     font-weight: 400;
-    line-height: 27px;
     text-transform: uppercase;
     color: rgba(71,71,71);
     margin: 0 0 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.section-offer .row{
-    display: flex;
-    gap: 20px;
-}
-
-.section-offer .row .col-6{
-    width: 100%;
-    max-width: 50%;
-}
-
 .section-offer .sub-banner{
-   
     border-radius: 10px;
     position: relative;
+    height: 100%;
 }
 
 .section-offer .sub-banner .sub-banner-img{
     display: block;
     overflow: hidden;
     height: 100%;
-    max-height: 403px;
     border-radius: 10px;
 }
 
 .section-offer .sub-banner .sub-banner-img img{
     width: 100%;
     height: 100%;
-    max-height: 403px;
-    min-height: 403px;
     transition: .5s ease;
     object-fit: cover;
 }
@@ -66,7 +64,8 @@
 .section-offer .sub-banner .sub-banner-text{
     position: absolute;
     top: 50%;
-    left: 40px;
+    left: 0;
+    padding: 0 40px;
     transform: translateY(-50%);
 }
 
@@ -83,7 +82,6 @@
 .section-offer .sub-banner .sub-banner-text p{
     font-weight: 400;
     font-size: 16px;
-    line-height: 28.8px;
     color: #000000;
     margin: 0;
     font-family: var(--button-font-family);
@@ -91,21 +89,16 @@
 
 .section-offer .sub-banner .sub-banner-text a{
     text-decoration: none;
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
 }
 
 .section-offer .sub-banner .sub-banner-text .btnshopnow{
     display: inline-block;
     font-family: var(--button-font-family);
     line-height: normal;
-    padding: 11px 15px;
+    padding: 11px 20px;
     letter-spacing: 0;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 15px;
     transition: all .4s ease;
     background-color: rgb(0 0 0);
@@ -115,4 +108,97 @@
 
 .section-offer .sub-banner .sub-banner-text .btnshopnow:hover{
     background-color: #044b61;
+}
+
+@media screen and (max-width: 1400px){
+    .section-offer .title .main-title{
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 1269px) {
+    .section-offer .sub-banner .sub-banner-text h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 750px) {
+    .section-offer .sub-banner .sub-banner-text h3{
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .section-offer .sub-banner .sub-banner-text p{
+        font-size: 15px;
+    }
+    .section-offer .sub-banner .sub-banner-text{
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 989px) and (min-width: 750px){
+    .section-offer .sub-banner .sub-banner-text h3{
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+    .section-offer .sub-banner .sub-banner-text p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 989px){
+    .section-offer .title .main-title{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 749px){
+    .section-offer .title .main-title{
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .section-offer .title .subtitle{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .section-offer .row .col-6{
+        max-width: 100%;
+    }
+
+    .section-offer .sub-banner .sub-banner-text .btnshopnow{
+        line-height: normal;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:479px){
+    .section-offer .sub-banner .sub-banner-text{
+        padding: 0 15px;
+    }
+    .section-offer .sub-banner .sub-banner-text h3{
+        font-size: 21px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+    .section-offer .sub-banner .sub-banner-text p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .section-offer .sub-banner .sub-banner-text .btnshopnow{
+        padding: 8px 15px;
+    }
+    .section-offer .title .main-title{
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .section-offer .title .subtitle{
+        font-size: 13px;
+    }
 }

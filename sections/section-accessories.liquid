@@ -3,11 +3,19 @@
 <div class="accessories-content">
     <div class="page-width">
         <div class="text">
-            <h2> {{ section.settings.title }} </h2>
-            <p> {{ section.settings.subtitle }} </p>
-            <a href="{{ section.settings.button_url}}" class="button-primary"> {{ section.settings.button_text }} 
-                {{ 'right-arrow.svg' | inline_asset_content }}
-            </a>
+            {% if section.settings.title != blank %}
+                <h2> {{ section.settings.title }} </h2>
+            {% endif %}
+
+            {% if section.settings.subtitle != blank %}
+                <p> {{ section.settings.subtitle }} </p>
+            {%endif %}
+
+            {% if section.settings.button_url != blank or section.settings.button_text != blank %}
+                <a href="{{ section.settings.button_url}}" class="button-primary"> {{ section.settings.button_text }} 
+                    {{ 'right-arrow.svg' | inline_asset_content }}
+                </a>
+            {%endif %}
         </div>
     </div>
 </div>

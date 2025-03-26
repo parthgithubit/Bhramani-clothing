@@ -35,8 +35,6 @@
           {{ section.settings.title }}
         </h2>
 
-        <p> {{ section.settings.sub_title }} </p>
-
         {%- if section.settings.show_view_all and show_mobile_slider -%}
           <a
             href="{{ routes.collections_url }}"
@@ -49,6 +47,8 @@
         {%- endif -%}
       </div>
     {%- endunless -%}
+
+    <p> {{ section.settings.sub_title }} </p>
 
     <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <ul
