@@ -1,22 +1,39 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "social_media_hxr9NA": {
+          "type": "social_media",
+          "settings": {
+            "fb_url": "https://bhramani-clothing.myshopify.com/",
+            "insta_url": "https://bhramani-clothing.myshopify.com/",
+            "twitter_url": "https://bhramani-clothing.myshopify.com/",
+            "pinterest_url": "https://bhramani-clothing.myshopify.com/"
+          }
+        }
+      },
+      "block_order": [
+        "social_media_hxr9NA"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "newsletter_heading": "GET THE NEWSLETER",
+        "footer_image": "shopify://shop_images/footer-logo-white.png",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
-        "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
-        "show_policy": true,
-        "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "copyright_text": "",
+        "copyright_url": "",
+        "copyright_link_text": ""
       }
     }
   },
