@@ -15,9 +15,36 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "section_about_banner_rdRXyz": {
+      "type": "section-about-banner",
+      "settings": {
+        "banner_img": "shopify://shop_images/about-us.png",
+        "title": "About Us"
+      }
+    },
+    "section_image_with_text_zCgEgF": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "about_block_HGgXTa": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "OUR STORY",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis. Suspendisse id eros nec leo commodo hendrerit pellentesque ut ante. Etiam purus lorem, consequat tincidunt posuere at, tempus et tortor. Nulla eu lorem tincidunt, lacinia mauris ultricies, luctus sem. Quisque lectus orci, hendrerit vitae urna ac, rhoncus dictum magna. Mauris cursus consectetur nisi, at porta ante. Ut tincidunt ex sed quam pulvinar luctus.</p>",
+            "block_img": "shopify://shop_images/new_about_img_1.png",
+            "align_media": false
+          }
+        }
+      },
+      "block_order": [
+        "about_block_HGgXTa"
+      ],
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_about_banner_rdRXyz",
+    "section_image_with_text_zCgEgF"
   ]
 }
