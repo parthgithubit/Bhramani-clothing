@@ -40,11 +40,96 @@
         "about_block_HGgXTa"
       ],
       "settings": {}
+    },
+    "section_about_block_Rrwrkt": {
+      "type": "section-about-block",
+      "blocks": {
+        "about_block_tbWzeh": {
+          "type": "about_block",
+          "settings": {
+            "block_img": "shopify://shop_images/about_icon_1.png",
+            "block_title": "OUR VISION",
+            "block_subtitle": "<p>Aliquam Erat Volutpat. Integer Pharetra Ultricies Iaculis. Eaeget Porta Augue. Suspendisse Consectetur Dolor Non Mauris Malesuada, Ut Elementum Purus Semper.</p>"
+          }
+        },
+        "about_block_Eh6i9D": {
+          "type": "about_block",
+          "settings": {
+            "block_img": "shopify://shop_images/about_icon_2.png",
+            "block_title": "OUR MISSION",
+            "block_subtitle": "<p>Aliquam Erat Volutpat. Integer Pharetra Ultricies Iaculis. Eaeget Porta Augue. Suspendisse Consectetur Dolor Non Mauris Malesuada, Ut Elementum Purus Semper.</p>"
+          }
+        },
+        "about_block_qPJEmX": {
+          "type": "about_block",
+          "settings": {
+            "block_img": "shopify://shop_images/about_icon_3.png",
+            "block_title": "OUR VALUES",
+            "block_subtitle": "<p>Aliquam Erat Volutpat. Integer Pharetra Ultricies Iaculis. Eaeget Porta Augue. Suspendisse Consectetur Dolor Non Mauris Malesuada, Ut Elementum Purus Semper.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "about_block_tbWzeh",
+        "about_block_Eh6i9D",
+        "about_block_qPJEmX"
+      ],
+      "settings": {}
+    },
+    "section_image_with_text_3EYMDn": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "about_block_6AtR3W": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "100% ETHICAL",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis.</p>",
+            "block_img": "shopify://shop_images/new_about_img_2.png",
+            "align_media": true
+          }
+        },
+        "about_block_GaaBYm": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "100% REAL",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis.</p>",
+            "block_img": "shopify://shop_images/new_about_img_3.png",
+            "align_media": false
+          }
+        },
+        "about_block_prfdDq": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "100% QUALITY",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis.</p>",
+            "block_img": "shopify://shop_images/new_about_img_4.png",
+            "align_media": true
+          }
+        },
+        "about_block_eRA9ff": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "100% THERE FOR YOU",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis.</p>",
+            "block_img": "shopify://shop_images/new_about_img_5.png",
+            "align_media": false
+          }
+        }
+      },
+      "block_order": [
+        "about_block_6AtR3W",
+        "about_block_GaaBYm",
+        "about_block_prfdDq",
+        "about_block_eRA9ff"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "section_about_banner_rdRXyz",
-    "section_image_with_text_zCgEgF"
+    "section_image_with_text_zCgEgF",
+    "section_about_block_Rrwrkt",
+    "section_image_with_text_3EYMDn"
   ]
 }
