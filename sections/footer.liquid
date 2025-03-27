@@ -168,9 +168,25 @@
       {% endif %}
     </div>
   </div>
-
-
 </footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if ($(window).width() < 767) {
+        $('.menulinks h5')
+        .off('click')
+        .on('click', function () {
+          if (!$(this).hasClass('active')) {
+            $('.menulinks h5.active').removeClass('active').next('ul').slideUp();
+          }
+          $(this).toggleClass('active').next('ul').slideToggle();
+       });
+      }
+      else{
+        $('.menulinks h5').off('click');
+      }
+    });
+</script>
 
 
 {% schema %}

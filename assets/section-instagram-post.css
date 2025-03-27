@@ -91,6 +91,10 @@
     .section-instagram-post .row .col-2{
         max-width: calc(25% - 9px);
     }
+    .section-instagram-post .text .main-title{
+        font-size: 30px;
+        line-height: 30px;
+    }
 }
 
 @media screen and (max-width:808px){
@@ -109,5 +113,15 @@
     .section-instagram-post .instagram-img img{
         height: 210px;
         max-height: 210px;
+    }
+    .section-instagram-post .text .subtitle{
+        margin: 0 0 20px;
+    }
+}
+
+@media screen and (max-width:575px){
+    .section-instagram-post .text .main-title{
+        font-size: 26px;
+        line-height: 28px;
     }
 }

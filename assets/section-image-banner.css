@@ -542,3 +542,37 @@
     color: currentColor;
   }
 }
+
+
+@media screen and (max-width:989px) {
+  .banner__content .banner__box .banner__heading{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .banner__content .banner__box .banner__text{
+    margin-top: 14px;
+  }
+  .banner__content .banner__box .banner__buttons{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .banner__content .banner__box .banner__heading{
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .banner__content .banner__box .banner__text p{
+    font-size: 15px;
+  }
+  .banner__content .banner__box .banner__buttons .button--primary{
+    padding: 0px 2rem;
+  }
+}
+
+@media screen and (max-width:575px){
+  .banner__content .banner__box .banner__heading{
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
