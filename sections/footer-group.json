@@ -22,10 +22,26 @@
             "twitter_url": "https://bhramani-clothing.myshopify.com/",
             "pinterest_url": "https://bhramani-clothing.myshopify.com/"
           }
+        },
+        "menu_links_Dwf6Pf": {
+          "type": "menu_links",
+          "settings": {
+            "title": "CATEGORIES",
+            "menu_link": "footer"
+          }
+        },
+        "menu_links_HJ8DcW": {
+          "type": "menu_links",
+          "settings": {
+            "title": "QUICK LINKS",
+            "menu_link": "footer"
+          }
         }
       },
       "block_order": [
-        "social_media_hxr9NA"
+        "social_media_hxr9NA",
+        "menu_links_Dwf6Pf",
+        "menu_links_HJ8DcW"
       ],
       "settings": {
         "newsletter_heading": "GET THE NEWSLETER",
