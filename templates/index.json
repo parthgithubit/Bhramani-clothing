@@ -128,58 +128,6 @@
     },
     "section_categories_VwKVE7": {
       "type": "section-categories",
-      "blocks": {
-        "category_block_BwCbLe": {
-          "type": "CategoryBlock",
-          "settings": {
-            "block_img": "shopify://shop_images/shirt-icon.png",
-            "block_title": "Shirt"
-          }
-        },
-        "category_block_H3z7h7": {
-          "type": "CategoryBlock",
-          "settings": {
-            "block_img": "shopify://shop_images/pent-icon.png",
-            "block_title": "Pent"
-          }
-        },
-        "category_block_HLAUQG": {
-          "type": "CategoryBlock",
-          "settings": {
-            "block_img": "shopify://shop_images/coat-icon.png",
-            "block_title": "Coat"
-          }
-        },
-        "category_block_VpAAAL": {
-          "type": "CategoryBlock",
-          "settings": {
-            "block_img": "shopify://shop_images/shoes-icon.png",
-            "block_title": "Shoes"
-          }
-        },
-        "category_block_Eqeq9J": {
-          "type": "CategoryBlock",
-          "settings": {
-            "block_img": "shopify://shop_images/bag-icon.png",
-            "block_title": "Bags"
-          }
-        },
-        "category_block_GCBqVV": {
-          "type": "CategoryBlock",
-          "settings": {
-            "block_img": "shopify://shop_images/cap-icon.png",
-            "block_title": "Accessories"
-          }
-        }
-      },
-      "block_order": [
-        "category_block_BwCbLe",
-        "category_block_H3z7h7",
-        "category_block_HLAUQG",
-        "category_block_VpAAAL",
-        "category_block_Eqeq9J",
-        "category_block_GCBqVV"
-      ],
       "settings": {
         "section_heading": "I’M LOOKING FOR.."
       }
@@ -270,6 +218,7 @@
             "cardtitle": "MEN’S WEAR",
             "cardsubtitle": "Big Sale 50% Off",
             "button_url": "",
+            "card_url": "",
             "button_text": "shop now"
           }
         },
@@ -280,6 +229,7 @@
             "cardtitle": "FLASH SALE",
             "cardsubtitle": "Upto 60% Discount",
             "button_url": "",
+            "card_url": "",
             "button_text": "shop now"
           }
         }
@@ -419,50 +369,56 @@
     "section_instagram_post_8WrXhL": {
       "type": "section-instagram-post",
       "blocks": {
-        "image_picker_9xFYVx": {
-          "type": "image_picker",
+        "instagram_post_fPVj9e": {
+          "type": "instagram_post",
           "settings": {
+            "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-1.png"
           }
         },
-        "image_picker_9qDDX3": {
-          "type": "image_picker",
+        "instagram_post_rGKRtL": {
+          "type": "instagram_post",
           "settings": {
+            "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-2.png"
           }
         },
-        "image_picker_Jwij7B": {
-          "type": "image_picker",
+        "instagram_post_Wb8cjK": {
+          "type": "instagram_post",
           "settings": {
+            "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-3.png"
           }
         },
-        "image_picker_B69YJK": {
-          "type": "image_picker",
+        "instagram_post_hXwH9w": {
+          "type": "instagram_post",
           "settings": {
+            "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-4.png"
           }
         },
-        "image_picker_mXiTbi": {
-          "type": "image_picker",
+        "instagram_post_fcyPVd": {
+          "type": "instagram_post",
           "settings": {
+            "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-5.png"
           }
         },
-        "image_picker_hwhwCA": {
-          "type": "image_picker",
+        "instagram_post_MA8w9k": {
+          "type": "instagram_post",
           "settings": {
+            "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-6.png"
           }
         }
       },
       "block_order": [
-        "image_picker_9xFYVx",
-        "image_picker_9qDDX3",
-        "image_picker_Jwij7B",
-        "image_picker_B69YJK",
-        "image_picker_mXiTbi",
-        "image_picker_hwhwCA"
+        "instagram_post_fPVj9e",
+        "instagram_post_rGKRtL",
+        "instagram_post_Wb8cjK",
+        "instagram_post_hXwH9w",
+        "instagram_post_fcyPVd",
+        "instagram_post_MA8w9k"
       ],
       "settings": {
         "section_title": "@PANDORA",
@@ -512,34 +468,6 @@
         "services_LRJPPG"
       ],
       "settings": {}
-    },
-    "section_banner_nFU4P8": {
-      "type": "section-banner",
-      "blocks": {
-        "banner_KUwriB": {
-          "type": "banner",
-          "settings": {
-            "media_selection": "image",
-            "custom_image": "shopify://shop_images/instagram-6.png"
-          }
-        },
-        "banner_LX7QCe": {
-          "type": "banner",
-          "settings": {
-            "media_selection": "video",
-            "custom_video": "shopify://files/videos/banner-video.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "banner_KUwriB",
-        "banner_LX7QCe"
-      ],
-      "settings": {
-        "banner_heading": "",
-        "banner_text": "",
-        "banner_button": ""
-      }
     }
   },
   "order": [
@@ -554,7 +482,6 @@
     "section_review_cK3MW4",
     "collapsible_content_raAp3t",
     "section_instagram_post_8WrXhL",
-    "section_services_LKfU7d",
-    "section_banner_nFU4P8"
+    "section_services_LKfU7d"
   ]
 }
