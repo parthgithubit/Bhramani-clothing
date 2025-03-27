@@ -105,12 +105,19 @@
           "settings": {
             "collection": "kids"
           }
+        },
+        "featured_collection_UcaRca": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "other"
+          }
         }
       },
       "block_order": [
         "featured_collection_GPEK49",
         "featured_collection_PGHKnR",
-        "featured_collection_pAHcef"
+        "featured_collection_pAHcef",
+        "featured_collection_UcaRca"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",
