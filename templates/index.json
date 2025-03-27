@@ -253,6 +253,15 @@
         "subtitle": "UNBOX YOUR HAPPINESS WITH PANDORa"
       }
     },
+    "section_accessories_fJ9Acc": {
+      "type": "section-accessories",
+      "settings": {
+        "title": "THE BEST ACCESSORIES OF 2022",
+        "subtitle": "Now at a special price!",
+        "button_url": "",
+        "button_text": "Shop Now"
+      }
+    },
     "video_6YWRAF": {
       "type": "video",
       "settings": {
@@ -478,15 +487,6 @@
         "services_LRJPPG"
       ],
       "settings": {}
-    },
-    "section_accessories_fJ9Acc": {
-      "type": "section-accessories",
-      "settings": {
-        "title": "THE BEST ACCESSORIES OF 2022",
-        "subtitle": "Now at a special price!",
-        "button_url": "",
-        "button_text": "Shop Now"
-      }
     }
   },
   "order": [
@@ -494,13 +494,13 @@
     "collection_list_Q94WQE",
     "section_categories_VwKVE7",
     "featured_collection",
+    "section_accessories_fJ9Acc",
     "section_offer_xqyLBT",
     "video_6YWRAF",
     "featured_blog_CBazJp",
     "section_review_cK3MW4",
     "collapsible_content_raAp3t",
     "section_instagram_post_8WrXhL",
-    "section_services_LKfU7d",
-    "section_accessories_fJ9Acc"
+    "section_services_LKfU7d"
   ]
 }
