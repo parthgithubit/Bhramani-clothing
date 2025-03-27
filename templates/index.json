@@ -128,6 +128,64 @@
     },
     "section_categories_VwKVE7": {
       "type": "section-categories",
+      "blocks": {
+        "cards_enfhNE": {
+          "type": "cards",
+          "settings": {
+            "block_link_text": "",
+            "block_img": "shopify://shop_images/shirt-icon.png",
+            "block_title": "shirt"
+          }
+        },
+        "cards_HmDGNA": {
+          "type": "cards",
+          "settings": {
+            "block_link_text": "",
+            "block_img": "shopify://shop_images/pent-icon.png",
+            "block_title": "pants"
+          }
+        },
+        "cards_J7mcJp": {
+          "type": "cards",
+          "settings": {
+            "block_link_text": "",
+            "block_img": "shopify://shop_images/shirt-icon.png",
+            "block_title": ""
+          }
+        },
+        "cards_ThCDfj": {
+          "type": "cards",
+          "settings": {
+            "block_link_text": "",
+            "block_img": "shopify://shop_images/shirt-icon.png",
+            "block_title": ""
+          }
+        },
+        "cards_g77Vnf": {
+          "type": "cards",
+          "settings": {
+            "block_link_text": "",
+            "block_img": "shopify://shop_images/shirt-icon.png",
+            "block_title": ""
+          }
+        },
+        "cards_7ANwyB": {
+          "type": "cards",
+          "settings": {
+            "block_link_text": "",
+            "block_img": "shopify://shop_images/shirt-icon.png",
+            "block_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "cards_enfhNE",
+        "cards_HmDGNA",
+        "cards_J7mcJp",
+        "cards_ThCDfj",
+        "cards_g77Vnf",
+        "cards_7ANwyB"
+      ],
       "settings": {
         "section_heading": "I’M LOOKING FOR.."
       }
