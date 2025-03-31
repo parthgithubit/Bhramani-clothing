@@ -37,3 +37,123 @@
     grid-column-gap: 2rem;
   }
 }
+
+.contact input{
+  background: #ffffff !important;
+  border: 0 !important;
+  color: #000000 !important;
+}
+
+.contact .field__label, 
+.contact .customer .field label{
+  color: rgb(71 71 71 / 75%);
+}
+
+.contact .field:after{
+  box-shadow: 0 0 0 1px rgba(71, 71, 71, 0.55);
+}
+
+.contact .contact-block-inner{
+  display: flex;
+  gap: 50px;
+}
+
+.contact .contact-block-inner .contact-form-block,
+.contact .contact-block-inner .contact_block{
+  width: 100%;
+  max-width: calc(50% - 10px);
+}
+
+.contact .contact-block-inner .contact_block{
+  border: 1px solid #ddd;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.contact .contact-block-inner .contact_block h2{
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0 0 33px;
+  letter-spacing: 0.6px;
+}
+
+.contact .contact-block-inner .contact_block p{
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: rgba(71,71,71);
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact .contact-block-inner .contact_block .block_info{
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin: 15px 0 0;
+}
+
+.contact .contact-block-inner .contact_block .block_info span{
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact .contact-block-inner .contact_block .block_info a{
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: normal;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact .map{
+  margin-top: 50px;
+}
+
+.contact .map .map-box iframe{
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (max-width:989px) {
+  .contact .contact-block-inner{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contact .contact-block-inner .contact-form-block,
+  .contact .contact-block-inner .contact_block{
+    max-width: 100%;
+  }
+  .contact .contact-block-inner .contact_block h2{
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:749px){
+  .contact .contact-block-inner .contact_block h2{
+    font-size: 30px;
+    line-height: 39px;
+    margin: 0 0 20px;
+  }
+  .contact .contact-block-inner .contact_block{
+    padding: 30px;
+  }
+  .contact .map .map-box iframe{
+    height: 400px;
+  }
+}
+
+
+@media screen and (max-width:575px){
+  .contact .contact-block-inner .contact_block{
+    padding: 30px 20px;
+  }
+  .contact .contact-block-inner .contact_block .block_info span{
+    font-size: 15px;
+  }
+  .contact .map .map-box iframe{
+    height: 330px;
+  }
+}

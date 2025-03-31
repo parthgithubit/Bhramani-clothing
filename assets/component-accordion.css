@@ -56,3 +56,27 @@
 .accordion__content img {
   max-width: 100%;
 }
+
+.product .product__accordion{
+  border-top: 1px solid #C3C3C3;
+  border-bottom: 1px solid #C3C3C3;
+}
+
+.product .product__accordion + .product__accordion{
+  border-top: 0;
+}
+
+.product .product__accordion .accordion summary{
+  padding: 1.8rem 0;
+  cursor: pointer;
+}
+
+.product .product__accordion .summary__title .accordion__title{
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product .product__accordion .accordion__content p strong{
+  color: #000000;
+}

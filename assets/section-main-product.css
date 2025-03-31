@@ -1492,3 +1492,128 @@ a.product__text {
     border: none;
   }
 }
+
+.thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide{
+  width: 110px;
+  height: 110px;
+}
+
+.thumbnail{
+  border-radius: 10px;
+  /* transform: rotate(-90deg); */
+}
+
+.thumbnail[aria-current]{
+  box-shadow: none;
+  border-color: #044B61;
+}
+
+.thumbnail[aria-current]:focus:not(:focus-visible){
+  box-shadow: none;
+}
+
+/* .product__column-sticky{
+  display: flex;
+  justify-content: end;
+}
+
+.slider-mobile-gutter{
+  flex: 0 0 84%;
+  width: 84%;
+}
+
+.thumbnail-slider{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: 77%;
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: left top;
+  flex: 0 0 16%;
+} */
+
+.product-form__submit{
+  background-color: #000000;
+}
+
+.product-form__submit span{
+  color: #FFFFFF;
+}
+
+.product-form__submit:hover{
+  background-color: #044B61;
+}
+
+.shopify-payment-button__button{
+  background-color: #044B61;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.shopify-payment-button__button--unbranded:hover:after,
+.shopify-payment-button__button--unbranded:after{
+  box-shadow: none;
+}
+
+.quantity{
+  border: 1px solid #C3C3C3;
+}
+
+.quantity:after{
+  display: none;
+}
+
+.quantity__input{
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  border: none !important;
+  pointer-events: none;
+}
+
+.quantity__input:focus-visible{
+  outline: none;
+  outline-offset: none;
+  box-shadow: none;
+}
+
+.product-form__quantity .form__label{
+  display: none;
+}
+.price__regular .price-item--regular,
+.product__info-container .product__description p{
+  font-family: "Open Sans", sans-serif;
+}
+
+.product__info-container .product__description b{
+  margin-bottom: 5px;
+  display: block;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.product__info-container .product__description p{
+  margin-top: 0;
+  letter-spacing: 0;
+  font-size: 14px;
+}
+
+.icon-with-text--horizontal .icon-with-text__item{
+  flex-direction: row;
+  width: auto;
+}
+
+.icon-with-text .detail + .detail{
+  padding-left: 40px;
+}
+
+.product .icon-with-text--horizontal .h4{
+  margin-right: 10px;
+  text-align: left;
+}

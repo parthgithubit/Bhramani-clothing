@@ -2331,6 +2331,9 @@ input[type='checkbox'] {
   margin: 0;
   letter-spacing: 0.1rem;
   min-height: 3.8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: normal;
 }
 
 .announcement-bar-slider--fade-in-next .announcement-bar__message,
@@ -3728,4 +3731,11 @@ details-disclosure > details {
   .collection-list-wrapper p{
     font-size: 13px;
   }
+}
+
+header .menu-opening .header__icon .icon{
+  display: none;
+}
+header .menu-opening .header__icon .icon.icon-close{
+  display: block;
 }

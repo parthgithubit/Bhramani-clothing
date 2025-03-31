@@ -48,3 +48,31 @@
     font-family: "Open Sans", sans-serif;
     color: rgba(71,71,71);
 }
+
+@media screen and (max-width:989px) {
+    .section-about .about-block .block-details{
+        padding: 2.5rem 1rem 0;
+    }
+}
+
+@media screen and (max-width:749px) {
+    .section-about .row {
+        flex-wrap: wrap;
+    }
+    .section-about .row .col{
+        max-width: calc(50% - 10px);
+    }
+    .section-about .about-block{
+        margin-bottom: 20px;
+    }
+    .section-about .about-block .img-box img{
+        max-width: 85px;
+        min-height: 85px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .section-about .row .col{
+        max-width: 100%;
+    }
+}
