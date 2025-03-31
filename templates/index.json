@@ -384,6 +384,109 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "section_instagram_post_UYdeTU": {
+      "type": "section-instagram-post",
+      "blocks": {
+        "instagram_post_GTFrQj": {
+          "type": "instagram_post",
+          "settings": {
+            "instagram_link": "",
+            "instagram_image": "shopify://shop_images/instagram-1.png"
+          }
+        },
+        "instagram_post_9XKkH3": {
+          "type": "instagram_post",
+          "settings": {
+            "instagram_link": "",
+            "instagram_image": "shopify://shop_images/instagram-2.png"
+          }
+        },
+        "instagram_post_r3mMPP": {
+          "type": "instagram_post",
+          "settings": {
+            "instagram_link": "",
+            "instagram_image": "shopify://shop_images/instagram-3.png"
+          }
+        },
+        "instagram_post_4G9dtk": {
+          "type": "instagram_post",
+          "settings": {
+            "instagram_link": "",
+            "instagram_image": "shopify://shop_images/instagram-4.png"
+          }
+        },
+        "instagram_post_ADNDMb": {
+          "type": "instagram_post",
+          "settings": {
+            "instagram_link": "",
+            "instagram_image": "shopify://shop_images/instagram-5.png"
+          }
+        },
+        "instagram_post_RdPGXr": {
+          "type": "instagram_post",
+          "settings": {
+            "instagram_link": "",
+            "instagram_image": "shopify://shop_images/instagram-6.png"
+          }
+        }
+      },
+      "block_order": [
+        "instagram_post_GTFrQj",
+        "instagram_post_9XKkH3",
+        "instagram_post_r3mMPP",
+        "instagram_post_4G9dtk",
+        "instagram_post_ADNDMb",
+        "instagram_post_RdPGXr"
+      ],
+      "settings": {
+        "section_title": "@PANDOra",
+        "section_subtitle": "#follow on social media"
+      }
+    },
+    "section_services_FCKkGV": {
+      "type": "section-services",
+      "blocks": {
+        "services_3WEAK8": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-1.png",
+            "block_heading": "100 DAY RETURNS",
+            "block_info": "No-Nonsense Return PolicyIf You Aren't Happy."
+          }
+        },
+        "services_Atazz9": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-2.png",
+            "block_heading": "FREE SHIPPING",
+            "block_info": "Your Precious Package IsExpedited And Insured."
+          }
+        },
+        "services_df9b73": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-3.png",
+            "block_heading": "SECURE PAYMENT",
+            "block_info": "Your Payment Information IsEncryption."
+          }
+        },
+        "services_KjTKEk": {
+          "type": "services",
+          "settings": {
+            "block_img": "shopify://shop_images/service-icon-4.png",
+            "block_heading": "CUSTOMER SUPPOrt",
+            "block_info": "Our Support Team AreReady 24/7 To Answer Any Have."
+          }
+        }
+      },
+      "block_order": [
+        "services_3WEAK8",
+        "services_Atazz9",
+        "services_df9b73",
+        "services_KjTKEk"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -396,6 +499,8 @@
     "video_NQTRDt",
     "featured_blog_ap3VLy",
     "section_review_Rd6nKz",
-    "collapsible_content_MHmWUR"
+    "collapsible_content_MHmWUR",
+    "section_instagram_post_UYdeTU",
+    "section_services_FCKkGV"
   ]
 }
