@@ -27,10 +27,24 @@
           "type": "price",
           "settings": {}
         },
+        "text_cWKgip": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Availability : </strong>200 item(s) in stock!",
+            "text_style": "subtitle"
+          }
+        },
+        "text_PLBLq6": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Estimated delivery</strong> : Apr 7, 2025 - Apr 15, 2025.",
+            "text_style": "subtitle"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "swatch_shape": "circle"
           }
         },
@@ -60,6 +74,8 @@
         "vendor",
         "title",
         "price",
+        "text_cWKgip",
+        "text_PLBLq6",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
