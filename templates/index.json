@@ -105,19 +105,12 @@
           "settings": {
             "collection": "kids"
           }
-        },
-        "featured_collection_UcaRca": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "other"
-          }
         }
       },
       "block_order": [
         "featured_collection_GPEK49",
         "featured_collection_PGHKnR",
-        "featured_collection_pAHcef",
-        "featured_collection_UcaRca"
+        "featured_collection_pAHcef"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",
@@ -136,62 +129,62 @@
     "section_categories_VwKVE7": {
       "type": "section-categories",
       "blocks": {
-        "cards_enfhNE": {
+        "cards_LHCAgc": {
           "type": "cards",
           "settings": {
             "block_link_text": "",
             "block_img": "shopify://shop_images/shirt-icon.png",
-            "block_title": "shirt"
+            "block_title": "Shirt"
           }
         },
-        "cards_HmDGNA": {
+        "cards_nfTiLF": {
           "type": "cards",
           "settings": {
             "block_link_text": "",
             "block_img": "shopify://shop_images/pent-icon.png",
-            "block_title": "pants"
+            "block_title": "Pants"
           }
         },
-        "cards_J7mcJp": {
+        "cards_h9WwKT": {
           "type": "cards",
           "settings": {
             "block_link_text": "",
-            "block_img": "shopify://shop_images/shirt-icon.png",
-            "block_title": ""
+            "block_img": "shopify://shop_images/coat-icon.png",
+            "block_title": "Coats"
           }
         },
-        "cards_ThCDfj": {
+        "cards_wPgg9i": {
           "type": "cards",
           "settings": {
             "block_link_text": "",
-            "block_img": "shopify://shop_images/shirt-icon.png",
-            "block_title": ""
+            "block_img": "shopify://shop_images/shoes-icon.png",
+            "block_title": "Shoes"
           }
         },
-        "cards_g77Vnf": {
+        "cards_GejmVX": {
           "type": "cards",
           "settings": {
             "block_link_text": "",
-            "block_img": "shopify://shop_images/shirt-icon.png",
-            "block_title": ""
+            "block_img": "shopify://shop_images/bag-icon.png",
+            "block_title": "Bags"
           }
         },
-        "cards_7ANwyB": {
+        "cards_b86pyy": {
           "type": "cards",
           "settings": {
             "block_link_text": "",
-            "block_img": "shopify://shop_images/shirt-icon.png",
-            "block_title": ""
+            "block_img": "shopify://shop_images/cap-icon.png",
+            "block_title": "Accessories"
           }
         }
       },
       "block_order": [
-        "cards_enfhNE",
-        "cards_HmDGNA",
-        "cards_J7mcJp",
-        "cards_ThCDfj",
-        "cards_g77Vnf",
-        "cards_7ANwyB"
+        "cards_LHCAgc",
+        "cards_nfTiLF",
+        "cards_h9WwKT",
+        "cards_wPgg9i",
+        "cards_GejmVX",
+        "cards_b86pyy"
       ],
       "settings": {
         "section_heading": "I’M LOOKING FOR.."
@@ -225,58 +218,19 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_JKkK9z": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_VqAxD6": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE BEST ACCESSORIES OF 2022",
-            "heading_size": "h1"
-          }
-        },
-        "text_FfkCgJ": {
-          "type": "text",
-          "settings": {
-            "text": "Now at a special price!",
-            "text_style": "body"
-          }
-        },
-        "buttons_ypQBfM": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_VqAxD6",
-        "text_FfkCgJ",
-        "buttons_ypQBfM"
-      ],
+    "section_accessories_xpKiiy": {
+      "type": "section-accessories",
       "settings": {
-        "image": "shopify://shop_images/parallax.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-right",
-        "desktop_content_alignment": "left",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
+        "title": "THE BEST ACCESSORIES OF 2022",
+        "subtitle": "Now at a special price!",
+        "button_url": "",
+        "button_text": "Shop Now"
       }
     },
-    "section_offer_xqyLBT": {
+    "section_offer_CcGc8y": {
       "type": "section-offer",
       "blocks": {
-        "offercard_3F7QmB": {
+        "offercard_f3UHcE": {
           "type": "offercard",
           "settings": {
             "card_img": "shopify://shop_images/offer-bg-1.png",
@@ -284,10 +238,10 @@
             "cardsubtitle": "Big Sale 50% Off",
             "button_url": "",
             "card_url": "",
-            "button_text": "shop now"
+            "button_text": "Shop Now"
           }
         },
-        "offercard_Ty4r8h": {
+        "offercard_FdGTzX": {
           "type": "offercard",
           "settings": {
             "card_img": "shopify://shop_images/offer-bg-2.png",
@@ -295,26 +249,26 @@
             "cardsubtitle": "Upto 60% Discount",
             "button_url": "",
             "card_url": "",
-            "button_text": "shop now"
+            "button_text": "Shop Now"
           }
         }
       },
       "block_order": [
-        "offercard_3F7QmB",
-        "offercard_Ty4r8h"
+        "offercard_f3UHcE",
+        "offercard_FdGTzX"
       ],
       "settings": {
-        "section_heading": "EXCLUSIVE OFFER!",
-        "subtitle": "UNBOX YOUR HAPPINESS WITH PANDORa"
+        "section_heading": "",
+        "subtitle": ""
       }
     },
-    "video_6YWRAF": {
+    "video_NQTRDt": {
       "type": "video",
       "settings": {
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=4iVYTQe88b8",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "cover_image": "shopify://shop_images/video-image.jpg",
         "description": "",
         "full_width": false,
@@ -323,7 +277,7 @@
         "padding_bottom": 36
       }
     },
-    "featured_blog_CBazJp": {
+    "featured_blog_ap3VLy": {
       "type": "featured-blog",
       "settings": {
         "blog": "nullam-ultricies-ligula-velit-quis-vehicula",
@@ -341,10 +295,10 @@
         "padding_bottom": 36
       }
     },
-    "section_review_cK3MW4": {
+    "section_review_Rd6nKz": {
       "type": "section-review",
       "blocks": {
-        "review_slider_entiWw": {
+        "review_slider_JLnFih": {
           "type": "review_slider",
           "settings": {
             "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget varius nunc. Integer faucibus nibh odio, ut mattis turpis blandit ullamcorper. In pellentesque urna nec lectus iaculis, eget mollis tortor venenatis. Praesent nec arcu quis nisi dictum tincidunt. Integer gravida libero non nulla posuere, ac ullamcorper turpis varius. Praesent at fringilla lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc quis libero erat. Praesent sapien urna, mollis id tincidunt egestas, tempor eget elit.</p>",
@@ -352,7 +306,7 @@
             "customer_designation": "Fashion Designer"
           }
         },
-        "review_slider_ifmcXq": {
+        "review_slider_HMVQyf": {
           "type": "review_slider",
           "settings": {
             "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget varius nunc. Integer faucibus nibh odio, ut mattis turpis blandit ullamcorper. In pellentesque urna nec lectus iaculis, eget mollis tortor venenatis. Praesent nec arcu quis nisi dictum tincidunt. Integer gravida libero non nulla posuere, ac ullamcorper turpis varius. Praesent at fringilla lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc quis libero erat. Praesent sapien urna, mollis id tincidunt egestas, tempor eget elit.</p>",
@@ -362,27 +316,27 @@
         }
       },
       "block_order": [
-        "review_slider_entiWw",
-        "review_slider_ifmcXq"
+        "review_slider_JLnFih",
+        "review_slider_HMVQyf"
       ],
       "settings": {
-        "section_title": "CUSTOMER REVIEWS",
+        "section_title": "CUSTOMER REVIEws",
         "section_subtitle": "what says our customers about us!"
       }
     },
-    "collapsible_content_raAp3t": {
+    "collapsible_content_MHmWUR": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_mKLpQR": {
+        "collapsible_row_3N3QYV": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What Shipping Methods Are Available?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Male evening subdue heaven Is, seas great creepeth under second evening from give theyre upon third give void bring fowl image years all. Cant life a. Dominion god which dont upon.</p>",
             "page": ""
           }
         },
-        "collapsible_row_Qxymzm": {
+        "collapsible_row_iHGhF4": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What are shipping times and costs?",
@@ -391,30 +345,30 @@
             "page": ""
           }
         },
-        "collapsible_row_mcPy9L": {
+        "collapsible_row_MjXRDi": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What payment methods can I use?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Credit Card: Visa, MasterCard, Discover, American Express, JCB, Visa Electron. The total will be charged to your card when the order is shipped.</p><p>PayPal: Shop easily online without having to enter your credit card details on the website.Your account will be charged once the order is completed. To register for a PayPal account, visit the website <a href=\"https://paypal.com/\" target=\"_blank\" title=\"https://paypal.com\">paypal.com</a>.</p>",
             "page": ""
           }
         },
-        "collapsible_row_RribgY": {
+        "collapsible_row_jxN7ic": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What is your exchanges, returns and refunds policy?",
-            "icon": "none",
+            "icon": "check_mark",
             "row_content": "<p>Items returned within 14 days of their original shipment date in same as new condition will be eligible for a full refund or store credit. Refunds will be charged back to the original form of payment used for purchase. Customer is responsible for shipping charges when making returns and shipping/handling fees of original purchase is non-refundable.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_mKLpQR",
-        "collapsible_row_Qxymzm",
-        "collapsible_row_mcPy9L",
-        "collapsible_row_RribgY"
+        "collapsible_row_3N3QYV",
+        "collapsible_row_iHGhF4",
+        "collapsible_row_MjXRDi",
+        "collapsible_row_jxN7ic"
       ],
       "settings": {
         "caption": "",
@@ -431,45 +385,45 @@
         "padding_bottom": 36
       }
     },
-    "section_instagram_post_8WrXhL": {
+    "section_instagram_post_UYdeTU": {
       "type": "section-instagram-post",
       "blocks": {
-        "instagram_post_fPVj9e": {
+        "instagram_post_GTFrQj": {
           "type": "instagram_post",
           "settings": {
             "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-1.png"
           }
         },
-        "instagram_post_rGKRtL": {
+        "instagram_post_9XKkH3": {
           "type": "instagram_post",
           "settings": {
             "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-2.png"
           }
         },
-        "instagram_post_Wb8cjK": {
+        "instagram_post_r3mMPP": {
           "type": "instagram_post",
           "settings": {
             "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-3.png"
           }
         },
-        "instagram_post_hXwH9w": {
+        "instagram_post_4G9dtk": {
           "type": "instagram_post",
           "settings": {
             "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-4.png"
           }
         },
-        "instagram_post_fcyPVd": {
+        "instagram_post_ADNDMb": {
           "type": "instagram_post",
           "settings": {
             "instagram_link": "",
             "instagram_image": "shopify://shop_images/instagram-5.png"
           }
         },
-        "instagram_post_MA8w9k": {
+        "instagram_post_RdPGXr": {
           "type": "instagram_post",
           "settings": {
             "instagram_link": "",
@@ -478,22 +432,22 @@
         }
       },
       "block_order": [
-        "instagram_post_fPVj9e",
-        "instagram_post_rGKRtL",
-        "instagram_post_Wb8cjK",
-        "instagram_post_hXwH9w",
-        "instagram_post_fcyPVd",
-        "instagram_post_MA8w9k"
+        "instagram_post_GTFrQj",
+        "instagram_post_9XKkH3",
+        "instagram_post_r3mMPP",
+        "instagram_post_4G9dtk",
+        "instagram_post_ADNDMb",
+        "instagram_post_RdPGXr"
       ],
       "settings": {
-        "section_title": "@PANDORA",
+        "section_title": "@PANDOra",
         "section_subtitle": "#follow on social media"
       }
     },
-    "section_services_LKfU7d": {
+    "section_services_FCKkGV": {
       "type": "section-services",
       "blocks": {
-        "services_HzRRqK": {
+        "services_3WEAK8": {
           "type": "services",
           "settings": {
             "block_img": "shopify://shop_images/service-icon-1.png",
@@ -501,7 +455,7 @@
             "block_info": "No-Nonsense Return PolicyIf You Aren't Happy."
           }
         },
-        "services_yEfdUk": {
+        "services_Atazz9": {
           "type": "services",
           "settings": {
             "block_img": "shopify://shop_images/service-icon-2.png",
@@ -509,7 +463,7 @@
             "block_info": "Your Precious Package IsExpedited And Insured."
           }
         },
-        "services_npgizM": {
+        "services_df9b73": {
           "type": "services",
           "settings": {
             "block_img": "shopify://shop_images/service-icon-3.png",
@@ -517,20 +471,20 @@
             "block_info": "Your Payment Information IsEncryption."
           }
         },
-        "services_LRJPPG": {
+        "services_KjTKEk": {
           "type": "services",
           "settings": {
             "block_img": "shopify://shop_images/service-icon-4.png",
-            "block_heading": "CUSTOMER SUPPORT",
+            "block_heading": "CUSTOMER SUPPOrt",
             "block_info": "Our Support Team AreReady 24/7 To Answer Any Have."
           }
         }
       },
       "block_order": [
-        "services_HzRRqK",
-        "services_yEfdUk",
-        "services_npgizM",
-        "services_LRJPPG"
+        "services_3WEAK8",
+        "services_Atazz9",
+        "services_df9b73",
+        "services_KjTKEk"
       ],
       "settings": {}
     }
@@ -540,13 +494,13 @@
     "collection_list_Q94WQE",
     "section_categories_VwKVE7",
     "featured_collection",
-    "image_banner_JKkK9z",
-    "section_offer_xqyLBT",
-    "video_6YWRAF",
-    "featured_blog_CBazJp",
-    "section_review_cK3MW4",
-    "collapsible_content_raAp3t",
-    "section_instagram_post_8WrXhL",
-    "section_services_LKfU7d"
+    "section_accessories_xpKiiy",
+    "section_offer_CcGc8y",
+    "video_NQTRDt",
+    "featured_blog_ap3VLy",
+    "section_review_Rd6nKz",
+    "collapsible_content_MHmWUR",
+    "section_instagram_post_UYdeTU",
+    "section_services_FCKkGV"
   ]
 }

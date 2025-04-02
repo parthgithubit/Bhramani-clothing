@@ -11,13 +11,126 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "section_hero_banner_idHida": {
+      "type": "section-hero-banner",
+      "settings": {
+        "banner_img": "shopify://shop_images/about-us.png",
+        "title": "About Us"
+      }
+    },
+    "section_image_with_text_KMrphW": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "about_block_EwwTW9": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "OUR STORY",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis. Suspendisse id eros nec leo commodo hendrerit pellentesque ut ante. Etiam purus lorem, consequat tincidunt posuere at, tempus et tortor. Nulla eu lorem tincidunt, lacinia mauris ultricies, luctus sem. Quisque lectus orci, hendrerit vitae urna ac, rhoncus dictum magna. Mauris cursus consectetur nisi, at porta ante. Ut tincidunt ex sed quam pulvinar luctus.</p>",
+            "block_img": "shopify://shop_images/new_about_img_1.png",
+            "align_media": false
+          }
+        }
+      },
+      "block_order": [
+        "about_block_EwwTW9"
+      ],
+      "settings": {}
+    },
+    "section_about_block_qzNB96": {
+      "type": "section-about-block",
+      "blocks": {
+        "about_block_aFKjYT": {
+          "type": "about_block",
+          "settings": {
+            "block_img": "shopify://shop_images/about_icon_1.png",
+            "block_title": "OUR VISION",
+            "block_subtitle": "<p>Aliquam Erat Volutpat. Integer Pharetra Ultricies Iaculis. Eaeget Porta Augue. Suspendisse Consectetur Dolor Non Mauris Malesuada, Ut Elementum Purus Semper.</p>"
+          }
+        },
+        "about_block_pkdAHA": {
+          "type": "about_block",
+          "settings": {
+            "block_img": "shopify://shop_images/about_icon_2.png",
+            "block_title": "OUR MISSION",
+            "block_subtitle": "<p>Aliquam Erat Volutpat. Integer Pharetra Ultricies Iaculis. Eaeget Porta Augue. Suspendisse Consectetur Dolor Non Mauris Malesuada, Ut Elementum Purus Semper.</p>"
+          }
+        },
+        "about_block_fk7dxw": {
+          "type": "about_block",
+          "settings": {
+            "block_img": "shopify://shop_images/about_icon_3.png",
+            "block_title": "OUR VALUES",
+            "block_subtitle": "<p>Aliquam Erat Volutpat. Integer Pharetra Ultricies Iaculis. Eaeget Porta Augue. Suspendisse Consectetur Dolor Non Mauris Malesuada, Ut Elementum Purus Semper.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "about_block_aFKjYT",
+        "about_block_pkdAHA",
+        "about_block_fk7dxw"
+      ],
+      "settings": {}
+    },
+    "section_image_with_text_XEnD3D": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "about_block_3E8VzY": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "100% ETHICAL",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis.</p>",
+            "block_img": "shopify://shop_images/new_about_img_2.png",
+            "align_media": true
+          }
+        },
+        "about_block_7zGGnG": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "100% REal",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis.</p>",
+            "block_img": "shopify://shop_images/new_about_img_3.png",
+            "align_media": false
+          }
+        },
+        "about_block_ReB3M4": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "100% QUALITY",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis.</p>",
+            "block_img": "shopify://shop_images/new_about_img_4.png",
+            "align_media": true
+          }
+        },
+        "about_block_WnW6WV": {
+          "type": "about_block",
+          "settings": {
+            "text_title": "100% THERE FOR YOU",
+            "text_paragraph": "<p>Aliquam erat volutpat. Integer pharetra ultricies iaculis. Sed eget porta augue. Suspendisse consectetur dolor non mauris malesuada, ut elementum purus semper. Mauris dictum mattis orci at porta. Curabitur et turpis vel velit accumsan tempor. Pellentesque sodales sapien suscipit sem ultricies, ac suscipit metus congue. Nulla auctor varius massa facilisis placerat. Curabitur at ante vel velit ultrices convallis.</p>",
+            "block_img": "shopify://shop_images/new_about_img_5.png",
+            "align_media": false
+          }
+        }
+      },
+      "block_order": [
+        "about_block_3E8VzY",
+        "about_block_7zGGnG",
+        "about_block_ReB3M4",
+        "about_block_WnW6WV"
+      ],
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_hero_banner_idHida",
+    "section_image_with_text_KMrphW",
+    "section_about_block_qzNB96",
+    "section_image_with_text_XEnD3D"
   ]
 }

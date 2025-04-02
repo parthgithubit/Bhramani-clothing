@@ -14,7 +14,7 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "social_media_hxr9NA": {
+        "social_media_EMGE3j": {
           "type": "social_media",
           "settings": {
             "fb_url": "https://bhramani-clothing.myshopify.com/",
@@ -23,14 +23,14 @@
             "pinterest_url": "https://bhramani-clothing.myshopify.com/"
           }
         },
-        "menu_links_Dwf6Pf": {
+        "menu_links_HeFG66": {
           "type": "menu_links",
           "settings": {
             "title": "CATEGORIES",
             "menu_link": "footer"
           }
         },
-        "menu_links_HJ8DcW": {
+        "menu_links_UDxPJY": {
           "type": "menu_links",
           "settings": {
             "title": "QUICK LINKS",
@@ -39,17 +39,18 @@
         }
       },
       "block_order": [
-        "social_media_hxr9NA",
-        "menu_links_Dwf6Pf",
-        "menu_links_HJ8DcW"
+        "social_media_EMGE3j",
+        "menu_links_HeFG66",
+        "menu_links_UDxPJY"
       ],
       "settings": {
-        "newsletter_heading": "GET THE NEWSLETER",
+        "newsletter_heading": "Subscribe to our emails",
         "footer_image": "shopify://shop_images/footer-logo-white.png",
         "newsletter_enable": true,
-        "copyright_text": "",
+        "copyright_text": "© 2023,",
         "copyright_url": "",
-        "copyright_link_text": ""
+        "copyright_link_text": "codewhiz solutions",
+        "card_payment": "shopify://shop_images/payment-card-img.png"
       }
     }
   },
