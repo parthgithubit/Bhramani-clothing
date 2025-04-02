@@ -27,7 +27,8 @@
 .price:not(.price--show-badge) .price-item--last:last-of-type {
   margin-right: 0;
   color: #000000;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: normal;
 }
 
 .price:not(.price--show-badge) .price-item--last:last-of-type {
@@ -89,8 +90,10 @@
 
 .price--on-sale .price-item--regular {
   text-decoration: line-through;
-  color: rgba(var(--color-foreground), 0.75);
-  font-size: 1.3rem;
+  color: rgb(71 71 71 / 75%);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: normal;
 }
 
 .unit-price {

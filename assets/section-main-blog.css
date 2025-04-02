@@ -120,17 +120,6 @@
   text-align: left;
 }
 
-.section-blog .main-blog .blog-articles .blog-articles__article .article-card-wrapper .card .card__inner{
-  height: 100%;
-  max-height: 307px;
-}
-
-@media screen and (max-width:989px) {
-  .section-blog .main-blog .blog-articles .blog-articles__article .article-card-wrapper .card .card__inner{
-    max-height: 231px;
-  }
-}
-
 @media screen and (max-width:767px){
   .section-blog .main-blog .blog-articles .blog-articles__article{
     max-width: 100%;

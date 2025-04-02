@@ -46,6 +46,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-image-with-text .text-block .button--primary{
+    margin-top: 4rem;
+}
+
+.section-image-with-text .text-block .button--primary svg{
+    margin-left: 10px;
+    height: 13px;
+    width: 20px;
+}
+
 .section-image-with-text .img-box img{
     display: block;
     max-width: 100%;

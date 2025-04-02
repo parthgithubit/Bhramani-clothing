@@ -5,3 +5,18 @@
 .related-products__heading {
   margin: 0 0 3rem;
 }
+
+.related-products .related-products__heading{
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.related-products .grid{
+  gap: 20px;
+}
+
+.related-products .grid .grid__item{
+  width: 100%;
+  max-width: calc(25% - 15px);
+}

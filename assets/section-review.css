@@ -21,6 +21,7 @@
     line-height: 40px;
     color: #000000;
     margin: 0 0 10px;
+    text-transform: uppercase;
 }
 
 .section-review .review-slider .main-title .subtitle{

@@ -5,16 +5,19 @@
             {% for block in section.blocks %}
             <div class="col">
                 <div class="services-block">
-                    <div class="img-box">
-                        {% if block.settings.block_img != blank %}
+                    {% if block.settings.block_img != blank %}
+                        <div class="img-box">
                             <img src="{{ block.settings.block_img | image_url }}" height="" width="" alt="">
-                        {% endif %}
-                    </div>
+                        </div>
+                    {% endif %}
 
-                    <div class="info">
-                        <h3> {{ block.settings.block_heading }} </h3>
-                        <p> {{ block.settings.block_info }} </p>
-                    </div>
+
+                    {% if block.settings.block_heading != blank or block.settings.block_info != blank %}
+                        <div class="info">
+                            <h3> {{ block.settings.block_heading }} </h3>
+                            <p> {{ block.settings.block_info }} </p>
+                        </div>
+                    {%endif %}
                 </div>
             </div>
             {%endfor %}

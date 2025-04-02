@@ -82,9 +82,7 @@ cart-items .title-wrapper-with-link {
 }
 
 .cart-item__name:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
-  text-decoration-thickness: 0.2rem;
+  color: #044B61;
 }
 
 .cart-item__price-wrapper > * {
@@ -348,4 +346,17 @@ cart-remove-button .icon-remove {
   .cart-items .quantity-popover__info-button {
     padding-left: 0;
   }
+}
+
+.cart-remove-button,
+.cart-remove-button .icon-remove{
+  transition: .4s ease-in-out;
+}
+
+.cart-remove-button:hover{
+  padding: 0;
+}
+
+.cart-remove-button:hover .icon-remove path{
+  color: #FFFFFF;
 }
