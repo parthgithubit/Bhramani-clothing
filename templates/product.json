@@ -59,15 +59,15 @@
             "swym_atw_button_alignment": "left",
             "swym_add_to_wishlist_color": "#000000",
             "swym_added_to_wishlist_color": "#000000",
-            "swym_button_text_color": "#fff",
-            "swym_atw_border_color": "#000",
+            "swym_button_text_color": "#ffffff",
+            "swym_atw_border_color": "#000000",
             "swym_atw_border_thickness": 0,
             "swym_atw_button_border_radius": 0,
             "swym_enable_hover_customization": false,
             "swym_hover_add_to_wishlist_color": "#000000",
             "swym_hover_added_to_wishlist_color": "#000000",
-            "swym_hover_button_text_color": "#fff",
-            "swym_hover_atw_border_color": "#000",
+            "swym_hover_button_text_color": "#ffffff",
+            "swym_hover_atw_border_color": "#000000",
             "swym_hover_atw_border_thickness": 0,
             "swym_hover_atw_button_border_radius": 0,
             "swym_custom_css": ".atw-button{\n    padding: 8px 10px!important;\n    border-radius: 5px!important;\n}\n.atw-button:hover {\n    transform: scale(1)!important;\n    background-color: #044B61;\n}"
@@ -94,6 +94,24 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_ierX9G": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Additional Information",
+            "icon": "question_mark",
+            "content": "<p><strong>Length:</strong>Regular length</p><p><strong>Fit:</strong>Relaxed fit</p><p><strong>Composition:</strong>Shell: Cotton 60%, Polyester 40%</p><p><strong>Concept:</strong>Basics</p><p><strong>Date of manufacture:</strong>N/A</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HUAn6C": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Additional Information",
+            "icon": "question_mark",
+            "content": "<p><strong>Length:</strong>Regular length</p><p><strong>Fit:</strong>Relaxed fit</p><p><strong>Composition:</strong>Shell: Cotton 60%, Polyester 40%</p><p><strong>Concept:</strong>Basics</p><p><strong>Date of manufacture:</strong>N/A</p>",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -113,6 +131,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "collapsible_tab_ierX9G",
+        "collapsible_tab_HUAn6C",
         "share"
       ],
       "settings": {
