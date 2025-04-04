@@ -73,6 +73,13 @@
             "swym_custom_css": ".atw-button{\n    padding: 8px 10px!important;\n    border-radius: 5px!important;\n}\n.atw-button:hover {\n    transform: scale(1)!important;\n    background-color: #044B61;\n}"
           }
         },
+        "popup_AUWNe4": {
+          "type": "popup",
+          "settings": {
+            "text": "Size guide",
+            "page": ""
+          }
+        },
         "custom_liquid_tcTfac": {
           "type": "custom_liquid",
           "settings": {
@@ -127,6 +134,7 @@
         "text_PLBLq6",
         "variant_picker",
         "wishlist_plus_wishlist_pdp_button_b64iYE",
+        "popup_AUWNe4",
         "custom_liquid_tcTfac",
         "quantity_selector",
         "buy_buttons",
