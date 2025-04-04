@@ -47,9 +47,10 @@
         "newsletter_heading": "GET THE NEWSLETER",
         "footer_image": "shopify://shop_images/footer-logo-white.png",
         "newsletter_enable": true,
-        "copyright_text": "",
+        "copyright_text": "© 2023",
         "copyright_url": "",
-        "copyright_link_text": ""
+        "copyright_link_text": "codewhiz solutions",
+        "card_payment": "shopify://shop_images/payment-card-img.png"
       }
     }
   },
