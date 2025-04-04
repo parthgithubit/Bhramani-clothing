@@ -416,4 +416,7 @@ cart-drawer-items::-webkit-scrollbar-track-piece {
   .slider-buttons{
     display: none !important;
   }
+  .cart-drawer{
+    width: 100%;
+  }
 }

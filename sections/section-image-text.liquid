@@ -1,0 +1,78 @@
+{{ 'section-image-text.css' | asset_url | stylesheet_tag }}
+
+<div class="section-image-text">
+    <div class="image-with-text">
+        {% if section.settings.image != blank %}
+        <a href='#'>
+            <div class="image">
+                <img src="{{ section.settings.image  | image_url}}" height="" width="" alt="" loading="lazy">
+            </div>
+        </a>
+    {% endif %}
+
+    {% for image_with_text in section.blocks %}
+        <div class="text">
+            {%if image_with_text.settings.heading != blank %}
+                <h2>{{ image_with_text.settings.heading }}</h2>
+            {% endif %}
+            {%if image_with_text.settings.paragraph != blank %}
+                {{ image_with_text.settings.paragraph }}
+            {% endif %}
+            {%if image_with_text.settings.button_link != blank or image_with_text.settings.button_text != blank %}
+                <a href=" {{ image_with_text.settings.button_link }}" class="button button--primary">
+                    {{ image_with_text.settings.button_text }}
+                    {{- 'icon-arrow.svg' | inline_asset_content -}}
+            {% endif %}
+          </a>
+        </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Section Image Text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Image",
+      "id": "image"
+    }
+  ],
+  "class": "section",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "image_with_text",
+      "name": "Image Text",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Heading",
+          "id": "heading"
+        },
+        {
+          "type": "richtext",
+          "label": "Paragraph",
+          "id": "paragraph"
+        },
+        {
+          "type": "url",
+          "label": "Button URL",
+          "id": "button_link"
+        },
+        {
+          "type": "text",
+          "label": "Button Text",
+          "id": "button_text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Section Image Text"
+    }
+  ]
+}
+{% endschema %}
