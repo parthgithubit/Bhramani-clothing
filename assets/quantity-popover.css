@@ -130,6 +130,14 @@ quantity-popover .quantity__rules span:first-of-type {
   align-items: center;
 }
 
+.quantity-popover-container .quantity__button{
+  width: 3.5rem;
+}
+
+.cart-quantity{
+  min-height: 42px;
+}
+
 @media screen and (min-width: 990px) {
   .quantity-popover-container--empty {
     margin-right: 2.7rem;
@@ -141,7 +149,7 @@ quantity-popover .quantity__rules span:first-of-type {
 
   .quantity-popover-container {
     width: auto;
-    max-width: 20rem;
+    max-width: 12rem;
   }
 
   .quantity-popover__info.global-settings-popup {

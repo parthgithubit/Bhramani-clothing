@@ -34,15 +34,6 @@
   transform: translateY(0);
 }
 
-
-
-/* .mega-menu__list {
-  display: grid;
-  gap: 1.8rem 4rem;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  list-style: none;
-} */
-
 .mega-menu__list {
   width: 50%;
   display: grid;
@@ -141,4 +132,8 @@
   padding-top: .6rem;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+}
+
+.mega-menu__link--active{
+  color: #044b61;
 }

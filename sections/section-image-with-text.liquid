@@ -6,11 +6,16 @@
         <div class="row {% if about_block.settings.align_media %} row-reverse {% endif %}">
             <div class="col">
                 <div class="text-block">
-                    {% if about_block.settings.text_title != blank %}
+                    {% if about_block.settings.text_title != blank or about_block.settings.text_paragraph != blank %}
                         <h2> {{ about_block.settings.text_title }} </h2>
                     {% endif %}
                     {% if about_block.settings.text_paragraph != blank %}
                         {{ about_block.settings.text_paragraph }}
+                    {% endif %}
+                    {% if about_block.settings.btn_url != blank or about_block.settings.btn_text != blank %}
+                        <a href="{{ about_block.settings.btn_url }}" class="button button--primary"> {{ about_block.settings.btn_text }}
+                            {{ 'icon-arrow.svg' | inline_asset_content }}  
+                        </a>
                     {% endif %}
                 </div>
             </div>
@@ -45,6 +50,16 @@
                     "type": "richtext",
                     "id": "text_paragraph",
                     "label": "Paragraph"
+                },
+                {
+                    "type": "text",
+                    "id": "btn_text",
+                    "label": "Button Text"
+                },
+                {
+                    "type": "url",
+                    "id": "btn_url",
+                    "label": "Button URL"
                 },
                 {
                     "type": "image_picker",

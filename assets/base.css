@@ -7,7 +7,7 @@
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
   --page-width: 150rem;
-  --font-body-family: 'Philosopher', sans-serif;
+  --font-body-family: 'Open Sans', sans-serif;
   --font-heading-family: 'Philosopher', sans-serif;
   --button-font-family: 'Open Sans', sans-serif;
 }
@@ -104,6 +104,7 @@
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0.6px;
+  text-transform: uppercase;
 }
 
 .subtitle{
@@ -124,6 +125,12 @@
   line-height: 40px;
   font-weight: 400;
   margin-bottom: 10px;
+}
+
+.product-popup-modal__content-info h1{
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 /* .slider-mobile-gutter .grid{
@@ -2331,6 +2338,9 @@ input[type='checkbox'] {
   margin: 0;
   letter-spacing: 0.1rem;
   min-height: 3.8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: normal;
 }
 
 .announcement-bar-slider--fade-in-next .announcement-bar__message,
@@ -3728,4 +3738,20 @@ details-disclosure > details {
   .collection-list-wrapper p{
     font-size: 13px;
   }
+}
+
+header .menu-opening .header__icon .icon{
+  display: none;
+}
+header .menu-opening .header__icon .icon.icon-close{
+  display: block;
+}
+
+.product-form .product-form__buttons .d-flex{
+  display: flex;
+  gap: 20px;
+}
+
+.product-form .product-form__buttons .d-flex .product-form__input{
+  max-width: fit-content;
 }

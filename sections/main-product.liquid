@@ -79,10 +79,7 @@
         {% render 'product-media-gallery', variant_images: variant_images %}
       </div>
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-        <section
-          id="ProductInfo-{{ section.id }}"
-          class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
-        >
+        <section id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}">
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
           {%- for block in section.blocks -%}
@@ -194,6 +191,7 @@
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+                    <b>Description:</b>
                     {{ product.description }}
                   </div>
                 {%- endif -%}
@@ -227,7 +225,7 @@
                     </div>
                   </details>
                 </div>
-              {%- when 'quantity_selector' -%}
+              {% comment %} {%- when 'quantity_selector' -%}
                 <div
                   id="Quantity-Form-{{ section.id }}"
                   class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
@@ -439,7 +437,9 @@
                       {%- endif -%}
                     </volume-pricing>
                   {%- endif -%}
-                </div>
+                </div> {% endcomment %}
+            
+            
               {%- when 'popup' -%}
                 <modal-opener
                   class="product-popup-modal__opener quick-add-hidden"
@@ -452,6 +452,8 @@
                     type="button"
                     aria-haspopup="dialog"
                   >
+                    {{ "icon-chart-pie.svg" | inline_asset_content }}
+
                     {{ block.settings.text | default: block.settings.page.title | escape }}
                   </button>
                 </modal-opener>
@@ -691,8 +693,52 @@
             {{- 'icon-close.svg' | inline_asset_content -}}
           </button>
           <div class="product-popup-modal__content-info">
-            <h1 class="h2">{{ block.settings.page.title | escape }}</h1>
+            <h1 class="h2">Size Guide</h1>
             {{ block.settings.page.content }}
+            <table border="1" width="100%">
+              <tbody>
+              <tr style="color: #fff; background: #000;" align="center">
+              <td>Size</td>
+              <td>Shoulder ( In )</td>
+              <td>Chest ( In )</td>
+              </tr>
+              <tr align="center">
+              <td>XXS</td>
+              <td>24"</td>
+              <td>26"</td>
+              </tr>
+              <tr align="center">
+              <td>XS</td>
+              <td>26"</td>
+              <td>32"</td>
+              </tr>
+              <tr align="center">
+              <td>S</td>
+              <td>28"</td>
+              <td>34"</td>
+              </tr>
+              <tr align="center">
+              <td>M</td>
+              <td>30"</td>
+              <td>36"</td>
+              </tr>
+              <tr align="center">
+              <td>L</td>
+              <td>32"</td>
+              <td>38"</td>
+              </tr>
+              <tr align="center">
+              <td>XL</td>
+              <td>34"</td>
+              <td>40"</td>
+              </tr>
+              <tr align="center">
+              <td>32XL</td>
+              <td>36"</td>
+              <td>42"</td>
+              </tr>
+              </tbody>
+              </table>
           </div>
         </div>
       </modal-dialog>

@@ -150,3 +150,10 @@ variant-selects {
   }
 }
 /* End custom styles for Swatch display type */
+
+.product .product__info-wrapper .form__label{
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}

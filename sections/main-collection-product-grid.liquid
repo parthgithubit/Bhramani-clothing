@@ -42,6 +42,22 @@
     {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
       <facet-filters-form class="facets facets-vertical-sort page-width small-hide">
         <form class="facets-vertical-form" id="FacetSortForm">
+          <div class="btn-group">
+            <button id="btn-4" href="" class="btn four_columns">
+              <svg class="icon icon-col-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.5 12.5"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="shop_page" data-name="shop page"><g id="_4_col" data-name="4_col"><path id="Rectangle" d="M.75 0a.76.76 0 01.75.75v11a.76.76 0 01-.75.75.76.76 0 01-.75-.75v-11A.76.76 0 01.75 0z"></path><path id="Rectangle-2" d="M4.75 0a.76.76 0 01.75.75v11a.76.76 0 01-.75.75.76.76 0 01-.75-.75v-11A.76.76 0 014.75 0z" data-name="Rectangle"></path><path id="Rectangle-3" d="M8.75 0a.76.76 0 01.75.75v11a.76.76 0 01-.75.75.76.76 0 01-.75-.75v-11A.76.76 0 018.75 0z" data-name="Rectangle"></path><path id="Rectangle-4" d="M12.75 0a.76.76 0 01.75.75v11a.76.76 0 01-.75.75.76.76 0 01-.75-.75v-11a.76.76 0 01.75-.75z" data-name="Rectangle"></path></g></g></g></g>
+              </svg>
+            </button>
+            
+            <button id="btn-3" href="" class="btn three_columns">
+              <svg class="icon icon-col-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.5 12.5"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="shop_page" data-name="shop page"><g id="Group-16"><path id="Rectangle" d="M.75 0a.76.76 0 01.75.75v11a.76.76 0 01-.75.75.76.76 0 01-.75-.75v-11A.76.76 0 01.75 0z"></path><path id="Rectangle-2" d="M4.75 0a.76.76 0 01.75.75v11a.76.76 0 01-.75.75.76.76 0 01-.75-.75v-11A.76.76 0 014.75 0z" data-name="Rectangle"></path><path id="Rectangle-3" d="M8.75 0a.76.76 0 01.75.75v11a.76.76 0 01-.75.75.76.76 0 01-.75-.75v-11A.76.76 0 018.75 0z" data-name="Rectangle"></path></g></g></g></g>
+              </svg>
+            </button>
+            
+            <button id="btn-2" href="" class="btn two_columns">
+              <svg class="icon icon-col-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.5 12.5"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="shop_page" data-name="shop page"><g id="Group-10"><path id="Rectangle" d="M.75 0a.76.76 0 01.75.75v11a.76.76 0 01-.75.75.76.76 0 01-.75-.75v-11A.76.76 0 01.75 0z"></path><path id="Rectangle-2" d="M4.75 0a.76.76 0 01.75.75v11a.76.76 0 01-.75.75.76.76 0 01-.75-.75v-11A.76.76 0 014.75 0z" data-name="Rectangle"></path></g></g></g></g>
+              </svg>
+            </button>              
+          </div>
           <div class="facet-filters sorting caption">
             <div class="facet-filters__field">
               <h2 class="facet-filters__label caption-large text-body">
@@ -194,6 +210,32 @@
     {{ 'mask-arch.svg' | inline_asset_content }}
   {%- endif -%}
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    $("body").delegate(".four_columns", "click", function(e) {
+      e.preventDefault();
+      $(".collection #product-grid,.template-search #product-grid").removeClass("grid--2-col-desktop grid--3-col-desktop grid--5-col-desktop");
+      $(".collection #product-grid,.template-search #product-grid").addClass("grid--4-col-desktop");
+      $(this).addClass('active');
+      $(".btn-group .two_columns,.btn-group .three_columns,.btn-group .five_columns").removeClass('active');
+    })
+    $("body").delegate(".three_columns", "click", function(e) {
+      e.preventDefault();
+      $(".collection #product-grid,.template-search #product-grid").removeClass("grid--2-col-desktop grid--4-col-desktop grid--5-col-desktop");
+      $(".collection #product-grid,.template-search #product-grid").addClass("grid--3-col-desktop");
+      $(this).addClass('active');
+      $(".btn-group .two_columns,.btn-group .four_columns,.btn-group .five_columns").removeClass('active');
+    });
+    $("body").delegate(".two_columns", "click", function(e) {
+      e.preventDefault();
+      $(".collection #product-grid,.template-search #product-grid").removeClass("grid--3-col-desktop grid--4-col-desktop grid--5-col-desktop");
+      $(".collection #product-grid,.template-search #product-grid").addClass("grid--2-col-desktop");
+      $(this).addClass('active');
+      $(".btn-group .three_columns,.btn-group .four_columns,.btn-group .five_columns").removeClass('active');
+    });
+  });
+</script>
 
 {% schema %}
 {
